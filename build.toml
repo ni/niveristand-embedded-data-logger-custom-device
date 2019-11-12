@@ -3,7 +3,7 @@ build_output_dir = 'Built'
 archive_location = '\\nirvana\Measurements\VeriStandAddons\embedded_data_logger_custom_device'
 
 [projects.cd]
-path = 'Source\Embedded Data Logger.lvproj'
+path = 'Source\Embedded Data Logger Custom Device.lvproj'
 
 [[build.steps]]
 name = 'Configuration Library'
