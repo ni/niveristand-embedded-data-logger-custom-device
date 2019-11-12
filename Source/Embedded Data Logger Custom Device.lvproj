@@ -19,14 +19,12 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Glyphs" Type="Folder" URL="../Glyphs">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="NI VeriStand APIs" Type="Folder">
 			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
-		</Item>
-		<Item Name="Support Files" Type="Folder">
-			<Item Name="Glyphs" Type="Folder" URL="../Glyphs">
-				<Property Name="NI.DISK" Type="Bool">true</Property>
-			</Item>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy .LLB to NI VeriStand dir.vi"/>
@@ -109,7 +107,7 @@
 				<Property Name="Destination[3].destName" Type="Str">Glyphs</Property>
 				<Property Name="Destination[3].path" Type="Path">../Built/Embedded Data Logger/Windows/Glyphs</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2D087F04-DE24-4E1F-B05F-FF70AA28C5CB}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5110DD57-C722-44A3-BE4D-59CFC76F42AD}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Custom Device Embedded Data Logger.xml</Property>
@@ -124,7 +122,7 @@
 				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Support Files/Glyphs</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Glyphs</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">4</Property>
@@ -150,7 +148,7 @@
 				<Property Name="Destination[3].destName" Type="Str">Glyphs</Property>
 				<Property Name="Destination[3].path" Type="Path">../Built/Embedded Data Logger/Windows/Glyphs</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2D087F04-DE24-4E1F-B05F-FF70AA28C5CB}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5110DD57-C722-44A3-BE4D-59CFC76F42AD}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Custom Device Embedded Data Logger.xml</Property>
@@ -208,7 +206,7 @@
 				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Support Files/Glyphs</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Glyphs</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">6</Property>
@@ -227,9 +225,9 @@
 				<Property Name="Destination[0].path" Type="Path">../Built/Embedded Data Logger/Windows/Embedded Data Logger Engine Windows.llb</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/Embedded Data Logger/Windows</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/Embedded Data Logger/Windows/Data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6A9F70CC-1D0A-4A25-A418-032E49A08C44}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B156A76F-F6B3-47DB-BB1E-8A5DF7C6B791}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Embedded Data Logger Engine.lvlib/Engine/RT Driver VI.vi</Property>
@@ -244,6 +242,7 @@
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Embedded Data Logger/Windows/Embedded Data Logger Engine Windows.llb</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{32214451-43E2-4D3E-92C8-CE819321FAC4}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
@@ -251,9 +250,9 @@
 				<Property Name="Destination[0].path" Type="Path">../Built/Embedded Data Logger/Windows/Embedded Data Logger Engine Windows.llb</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/Embedded Data Logger/Windows</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/Embedded Data Logger/Windows/Data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6A9F70CC-1D0A-4A25-A418-032E49A08C44}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5110DD57-C722-44A3-BE4D-59CFC76F42AD}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applySaveSettings" Type="Bool">true</Property>
@@ -265,7 +264,7 @@
 				<Property Name="Source[1].properties[2].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[1].properties[2].value" Type="Bool">false</Property>
 				<Property Name="Source[1].properties[3].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[1].properties[3].value" Type="Bool">true</Property>
+				<Property Name="Source[1].properties[3].value" Type="Bool">false</Property>
 				<Property Name="Source[1].properties[4].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[1].properties[4].value" Type="Bool">true</Property>
 				<Property Name="Source[1].propertiesCount" Type="Int">5</Property>
@@ -452,7 +451,7 @@
 				<Property Name="Destination[1].path" Type="Path">/Pharlap</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{46374850-9FA9-42F4-89DA-5096A52694F6}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A29AC83C-3FA2-4928-B922-5DAC91943E4F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applySaveSettings" Type="Bool">true</Property>
