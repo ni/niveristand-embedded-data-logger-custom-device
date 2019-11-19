@@ -14,7 +14,7 @@ See [GitHub's official documentation](https://help.github.com/articles/using-pul
 # Getting Started
 
 Build specifications are provided for building the custom device. The build process should automatically
-copy the output files to the directory required by VeriStand.
+copy the output files to the directory required by VeriStand. Note that this copy step will overwrite the existing Embedded Data Logger installed by VeriStand.
 
 # Testing
 
