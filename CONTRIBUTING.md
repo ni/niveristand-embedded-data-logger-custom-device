@@ -13,11 +13,14 @@ See [GitHub's official documentation](https://help.github.com/articles/using-pul
 
 # Getting Started
 
-- TODO: include build steps here.
+Build specifications are provided for building the custom device. The build process should automatically
+copy the output files to the directory required by VeriStand. Note that this copy step will overwrite the existing Embedded Data Logger installed by VeriStand.
 
 # Testing
 
-- TODO: include testing steps here.
+Both unit and system tests are provided with the custom device. These tests can be run from within the LabVIEW
+project using the [VI Tester](https://github.com/JKISoftware/JKI-VI-Tester) integration, or from the command line
+using the `RunVITester` operation provided by the [testing tools](https://github.com/ni/niveristand-custom-device-testing-tools).
 
 # Developer Certificate of Origin (DCO)
 
