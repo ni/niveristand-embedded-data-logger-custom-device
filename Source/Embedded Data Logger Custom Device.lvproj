@@ -37,6 +37,9 @@
 				<Item Name="Embedded Data Logger Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/Embedded Data Logger Unit Tests.lvclass"/>
 			</Item>
 			<Item Name="System" Type="Folder">
+				<Item Name="Assets" Type="Folder" URL="../Tests/System/Assets">
+					<Property Name="NI.DISK" Type="Bool">true</Property>
+				</Item>
 				<Item Name="Embedded Data Logger System Tests.lvclass" Type="LVClass" URL="../Tests/System/Embedded Data Logger System Tests.lvclass"/>
 			</Item>
 		</Item>
