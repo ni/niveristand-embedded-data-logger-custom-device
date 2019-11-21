@@ -10,7 +10,7 @@
 				<String>EDL</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.1</String>
+				<String>1.0.0.6</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -186,7 +186,7 @@
 					<Description />
 					<Properties />
 					<Errors />
-					<Section Name="Embedded Data Logger" TypeGUID="382db339-b6fb-45a6-86c0-031bb1110bb1">
+					<Section Name="EDL" TypeGUID="382db339-b6fb-45a6-86c0-031bb1110bb1">
 						<Description />
 						<Properties>
 							<Property Name="CD Status">
@@ -239,17 +239,18 @@
 							</Property>
 						</Properties>
 						<Errors />
-						<Section Name="Log File" TypeGUID="29edb790-3e4e-4121-9b93-a3d0540ab92c">
+						<Section Name="EDL Log1" TypeGUID="29edb790-3e4e-4121-9b93-a3d0540ab92c">
 							<Description>Log Description</Description>
 							<Properties>
 								<Property Name="user.CD.Log File Dir">
 									<StringArray>
 										<Elem>c</Elem>
 										<Elem>logs</Elem>
+										<Elem>EDL</Elem>
 									</StringArray>
 								</Property>
 								<Property Name="user.CD.Timestamp">
-									<Boolean>true</Boolean>
+									<Boolean>false</Boolean>
 								</Property>
 								<Property Name="user.CD.Auto Open">
 									<Boolean>true</Boolean>
