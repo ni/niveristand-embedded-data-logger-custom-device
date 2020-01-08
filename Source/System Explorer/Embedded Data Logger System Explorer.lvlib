@@ -26,8 +26,12 @@
 				<Item Name="Build Data Log File Path.vi" Type="VI" URL="../Build Data Log File Path.vi"/>
 				<Item Name="Create Unique Child Item Name.vi" Type="VI" URL="../Create Unique Child Item Name.vi"/>
 				<Item Name="Get Data Log File Settings.vi" Type="VI" URL="../Get Data Log File Settings.vi"/>
+				<Item Name="Get XML Custom Device Version.vi" Type="VI" URL="../Get XML Custom Device Version.vi"/>
+				<Item Name="Mutate Device Driver Path.vi" Type="VI" URL="../Mutate Device Driver Path.vi"/>
+				<Item Name="Mutate Log File Directory.vi" Type="VI" URL="../Mutate Log File Directory.vi"/>
 				<Item Name="New Log File Configuration.vi" Type="VI" URL="../New Log File Configuration.vi"/>
 				<Item Name="Select Channels Dialog.vi" Type="VI" URL="../Select Channels Dialog.vi"/>
+				<Item Name="Set Custom Device Driver.vi" Type="VI" URL="../Set Custom Device Driver.vi"/>
 			</Item>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
 		</Item>
