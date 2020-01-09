@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
-	<XSDVersion Major="2010" Minor="0" Fix="0" Build="0"/>
+	<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
 	<AddMenu>
 		<eng>National Instruments::Embedded Data Logger</eng>
 		<loc>National Instruments::Embedded Data Logger</loc>
@@ -52,14 +52,13 @@
 			</Source>
 		</SourceDistribution>
 	</CustomDeviceVI>
-	<Dependencies/>
+	<Dependencies />
 	<Pages>
 		<Page>
 			<Name>
 				<eng>Embedded Data Logger</eng>
 				<loc>Embedded Data Logger</loc>
 			</Name>
-			<DeleteProtection>false</DeleteProtection>
 			<GUID>382db339-b6fb-45a6-86c0-031bb1110bb1</GUID>
 			<Glyph>
 				<Type>To Common Doc Dir</Type>
@@ -141,7 +140,6 @@
 				<eng>File Page</eng>
 				<loc>File Page</loc>
 			</Name>
-			<DeleteProtection>false</DeleteProtection>
 			<GUID>29edb790-3e4e-4121-9b93-a3d0540ab92c</GUID>
 			<Glyph>
 				<Type>To Common Doc Dir</Type>
@@ -171,7 +169,6 @@
 				<eng>Channel Group Page</eng>
 				<loc>Channel Group Page</loc>
 			</Name>
-			<DeleteProtection>false</DeleteProtection>
 			<GUID>6f0afb90-3eee-463c-9817-5273ea7ccf5e</GUID>
 			<Glyph>
 				<Type>To Common Doc Dir</Type>
@@ -214,6 +211,6 @@
 		</Page>
 	</Pages>
 	<CustomXML>
-		<Dummy/>
+		<Dummy />
 	</CustomXML>
 </CustomDevice>
