@@ -10,7 +10,7 @@
 				<String>EDL</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.6</String>
+				<String>1.0.0.7</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -869,6 +869,166 @@ Values
 									</Properties>
 									<Errors />
 								</Section>
+							</Section>
+						</Section>
+						<Section Name="EDL Log2" TypeGUID="29edb790-3e4e-4121-9b93-a3d0540ab92c">
+							<Description />
+							<Properties>
+								<Property Name="user.CD.Log File Dir">
+									<StringArray>
+										<Elem>c</Elem>
+										<Elem>logs</Elem>
+										<Elem>EDL2</Elem>
+									</StringArray>
+								</Property>
+								<Property Name="user.CD.Timestamp">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="user.CD.Auto Open">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="nivs.Log File Producer">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="user.CD.Pretrigger">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="user.CD.Log Archive Dir">
+									<StringArray>
+										<Elem>c</Elem>
+										<Elem>logs</Elem>
+										<Elem>EDL2-archive</Elem>
+									</StringArray>
+								</Property>
+								<Property Name="user.CD.Archive Files">
+									<Boolean>true</Boolean>
+								</Property>
+							</Properties>
+							<Errors />
+							<Section Name="Commands" TypeGUID="03D3BB89-1485-13A6-56005DE6430FF8B7">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Section Type">
+										<BinaryString>Q29tbWFuZA==</BinaryString>
+									</Property>
+								</Properties>
+								<Errors />
+								<Channel Name="Log Trigger" TypeGUID="19ab609c-2807-4208-9214-1b9da8fe089c" RowDim="1" ColDim="1" Units="" BitFields="3">
+									<Description>Controls whether to log data to file. A non-zero value specifies logging is active.</Description>
+									<Properties>
+										<Property Name="Value Table">
+											<Dictionary>
+												<Elem Key="Inactive">
+													<Double>0</Double>
+												</Elem>
+												<Elem Key="Active">
+													<Double>1</Double>
+												</Elem>
+											</Dictionary>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Log Command" TypeGUID="9b525fa0-4d4a-4ec1-902b-bfeef88ebbcc" RowDim="1" ColDim="1" Units="" BitFields="3">
+									<Description>Controls the data logging operation. Use this channel to specifically open or close data log files. This channel is reset to Idle after the command is processed.
+
+Values
+----------------
+0: Idle (no command)
+
+1: Open File. Closes the previous file reference if it was open and opens a new file reference.
+
+2: Close File. Closes the file reference without opening a new file reference.</Description>
+									<Properties>
+										<Property Name="Value Table">
+											<Dictionary>
+												<Elem Key="Idle">
+													<Double>0</Double>
+												</Elem>
+												<Elem Key="Open File">
+													<Double>1</Double>
+												</Elem>
+												<Elem Key="Close File">
+													<Double>2</Double>
+												</Elem>
+											</Dictionary>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+							</Section>
+							<Section Name="Status" TypeGUID="03D3BB89-1485-13A6-56005DE6430FF8B7">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Section Type">
+										<BinaryString>U3RhdHVz</BinaryString>
+									</Property>
+								</Properties>
+								<Errors />
+								<Channel Name="TDMS Error Code" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="Error Code" BitFields="1">
+									<Description>Indicates the error code value for the last reported TDMS file operation error.</Description>
+									<Properties>
+										<Property Name="user.CD.Channel Type">
+											<BinaryString>RXJyb3I=</BinaryString>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Missed Packets" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="" BitFields="1">
+									<Description>Indicates the total number of packets lost for the data log file. Each packet contains one time step of data for one channel group.</Description>
+									<Properties>
+										<Property Name="user.CD.Channel Type">
+											<BinaryString>RGF0YSBMb3Nz</BinaryString>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="File Status" TypeGUID="0565a14b-6056-4bf2-ab89-d54684e64d40" RowDim="1" ColDim="1" Units="" BitFields="1">
+									<Description>Indicates the status of the current log file.
+
+Values
+----------------
+0: Closed
+
+1: Open</Description>
+									<Properties>
+										<Property Name="Value Table">
+											<Dictionary>
+												<Elem Key="File Closed">
+													<Double>0</Double>
+												</Elem>
+												<Elem Key="File Open">
+													<Double>1</Double>
+												</Elem>
+											</Dictionary>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+							</Section>
+							<Section Name="Channel Groups" TypeGUID="708d9ba3-288f-456f-bd58-8911c913706f">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Section Type">
+										<BinaryString>R3JvdXBz</BinaryString>
+									</Property>
+								</Properties>
+								<Errors />
 							</Section>
 						</Section>
 						<Channel Name="FIFO Utilization" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="%" BitFields="1">
