@@ -26,6 +26,7 @@
 				<Item Name="Build Data Log Archive Path.vi" Type="VI" URL="../Build Data Log Archive Path.vi"/>
 				<Item Name="Build Data Log File Path.vi" Type="VI" URL="../Build Data Log File Path.vi"/>
 				<Item Name="Create Unique Child Item Name.vi" Type="VI" URL="../Create Unique Child Item Name.vi"/>
+				<Item Name="Enable or Disable.vi" Type="VI" URL="../Enable or Disable.vi"/>
 				<Item Name="Get Data Log File Settings.vi" Type="VI" URL="../Get Data Log File Settings.vi"/>
 				<Item Name="Get Default Log File Directory.vi" Type="VI" URL="../Get Default Log File Directory.vi"/>
 				<Item Name="Get XML Custom Device Version.vi" Type="VI" URL="../Get XML Custom Device Version.vi"/>

@@ -7,5 +7,6 @@
 	<Item Name="Shared" Type="Folder">
 		<Item Name="Types" Type="Folder"/>
 		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
+		<Item Name="Get Data Log File Span Settings.vi" Type="VI" URL="../../System Explorer/Get Data Log File Span Settings.vi"/>
 	</Item>
 </Library>
