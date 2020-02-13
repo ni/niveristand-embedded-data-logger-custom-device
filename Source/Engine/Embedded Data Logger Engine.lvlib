@@ -12,6 +12,7 @@
 		</Item>
 		<Item Name="Run" Type="Folder">
 			<Item Name="Build Data Log File Path.vi" Type="VI" URL="../Build Data Log File Path.vi"/>
+			<Item Name="Flush Close Archive File.vi" Type="VI" URL="../Flush Close Archive File.vi"/>
 			<Item Name="Flush File Data.vi" Type="VI" URL="../Flush File Data.vi"/>
 			<Item Name="Flush Group Buffer.vi" Type="VI" URL="../Flush Group Buffer.vi"/>
 			<Item Name="Get Data Log File Settings.vi" Type="VI" URL="../Get Data Log File Settings.vi"/>
