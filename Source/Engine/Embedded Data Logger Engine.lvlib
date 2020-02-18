@@ -15,12 +15,14 @@
 			<Item Name="Flush Close Archive File.vi" Type="VI" URL="../Flush Close Archive File.vi"/>
 			<Item Name="Flush File Data.vi" Type="VI" URL="../Flush File Data.vi"/>
 			<Item Name="Flush Group Buffer.vi" Type="VI" URL="../Flush Group Buffer.vi"/>
+			<Item Name="Get Data Log Directory Settings.vi" Type="VI" URL="../Get Data Log Directory Settings.vi"/>
 			<Item Name="Get Data Log File Settings.vi" Type="VI" URL="../Get Data Log File Settings.vi"/>
 			<Item Name="Get File Properties List.vi" Type="VI" URL="../Get File Properties List.vi"/>
 			<Item Name="Open Data Log File.vi" Type="VI" URL="../Open Data Log File.vi"/>
 			<Item Name="Sample File Data.vi" Type="VI" URL="../Sample File Data.vi"/>
 			<Item Name="Sample Group Data.vi" Type="VI" URL="../Sample Group Data.vi"/>
 			<Item Name="Set Data in Group Buffer.vi" Type="VI" URL="../Set Data in Group Buffer.vi"/>
+			<Item Name="Spanning.vi" Type="VI" URL="../Spanning.vi"/>
 		</Item>
 		<Item Name="Shut Down" Type="Folder"/>
 		<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
