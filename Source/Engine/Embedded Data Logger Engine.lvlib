@@ -12,6 +12,7 @@
 		</Item>
 		<Item Name="Run" Type="Folder">
 			<Item Name="Build Data Log File Path.vi" Type="VI" URL="../Build Data Log File Path.vi"/>
+			<Item Name="Compute if Should Span.vi" Type="VI" URL="../Compute if Should Span.vi"/>
 			<Item Name="Flush Close Archive File.vi" Type="VI" URL="../Flush Close Archive File.vi"/>
 			<Item Name="Flush File Data.vi" Type="VI" URL="../Flush File Data.vi"/>
 			<Item Name="Flush Group Buffer.vi" Type="VI" URL="../Flush Group Buffer.vi"/>
@@ -22,7 +23,6 @@
 			<Item Name="Sample File Data.vi" Type="VI" URL="../Sample File Data.vi"/>
 			<Item Name="Sample Group Data.vi" Type="VI" URL="../Sample Group Data.vi"/>
 			<Item Name="Set Data in Group Buffer.vi" Type="VI" URL="../Set Data in Group Buffer.vi"/>
-			<Item Name="Spanning.vi" Type="VI" URL="../Spanning.vi"/>
 		</Item>
 		<Item Name="Shut Down" Type="Folder"/>
 		<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
