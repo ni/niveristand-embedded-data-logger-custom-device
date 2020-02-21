@@ -10,7 +10,7 @@
 				<String>EDL</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.13</String>
+				<String>1.0.0.14</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -1072,6 +1072,12 @@ Values
 								<Property Name="user.CD.Maximum File Size">
 									<U32>0</U32>
 								</Property>
+								<Property Name="user.CD.Segment Files">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="user.CD.Segment Size">
+									<U32>20</U32>
+								</Property>
 							</Properties>
 							<Errors />
 							<Section Name="Commands" TypeGUID="03D3BB89-1485-13A6-56005DE6430FF8B7">
@@ -1254,6 +1260,15 @@ Values
 								</Property>
 								<Property Name="user.CD.Maximum File Size">
 									<U32>2000</U32>
+								</Property>
+								<Property Name="user.CD.Segment Files">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="user.CD.Segment Files By">
+									<U16>1</U16>
+								</Property>
+								<Property Name="user.CD.Segment Size">
+									<U32>8</U32>
 								</Property>
 							</Properties>
 							<Errors />
