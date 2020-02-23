@@ -10,7 +10,7 @@
 				<String>EDL</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.14</String>
+				<String>1.0.0.16</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -1268,7 +1268,7 @@ Values
 									<U16>1</U16>
 								</Property>
 								<Property Name="user.CD.Segment Size">
-									<U32>8</U32>
+									<U32>1</U32>
 								</Property>
 							</Properties>
 							<Errors />
@@ -1405,10 +1405,234 @@ Values
 										<Property Name="user.CD.Log Channel Names">
 											<StringArray>
 												<Elem>System Time</Elem>
+												<Elem>Absolute Time</Elem>
+												<Elem>Actual Loop Rate</Elem>
+												<Elem>Analysis State</Elem>
+												<Elem>ASAM XIL EESPort Trigger</Elem>
+												<Elem>ASAM XIL EESPort Trigger Count</Elem>
+												<Elem>Command Index</Elem>
+												<Elem>Command Rate</Elem>
+												<Elem>DAQ Error</Elem>
+												<Elem>Delta T</Elem>
+												<Elem>Detailed Tracing Flag</Elem>
+												<Elem>Failure Count</Elem>
+												<Elem>Generator Engine State</Elem>
+												<Elem>Host IP</Elem>
+												<Elem>HP Count</Elem>
+												<Elem>HP Loop Duration</Elem>
+												<Elem>HP Loop Wakeup Status</Elem>
+												<Elem>HP-LP Overwrite</Elem>
+												<Elem>HS TCP Overflow Count</Elem>
+												<Elem>Iteration</Elem>
+												<Elem>Last Late Iteration</Elem>
+												<Elem>Log Status</Elem>
+												<Elem>LP Count</Elem>
+												<Elem>LP Data Count</Elem>
+												<Elem>LP Loop Duration</Elem>
+												<Elem>Max Streamed Channels</Elem>
+												<Elem>Maximum GENs</Elem>
+												<Elem>Model Count</Elem>
+												<Elem>Real-Time Sequence Command</Elem>
+												<Elem>Real-Time Sequence Count</Elem>
+												<Elem>RT Engine Build</Elem>
+												<Elem>Stack Index 1</Elem>
+												<Elem>Stack Index 2</Elem>
+												<Elem>Stack Index 3</Elem>
+												<Elem>Stack Index 4</Elem>
+												<Elem>Stack Index 5</Elem>
+												<Elem>Stack Index 6</Elem>
+												<Elem>Streamed Channel Count</Elem>
+												<Elem>Streamed Waveform Count</Elem>
+												<Elem>System Command</Elem>
+												<Elem>System Time - Microseconds</Elem>
+												<Elem>TCP Data Packet Loss</Elem>
+												<Elem>Thread Tracing Flag</Elem>
+												<Elem>Trace Buffer Size</Elem>
+												<Elem>Trace Enabled Flag</Elem>
+												<Elem>Tripped High Alarm</Elem>
+												<Elem>Tripped High Value</Elem>
+												<Elem>Tripped Low Alarm</Elem>
+												<Elem>Tripped Low Value</Elem>
+												<Elem>Tripped Medium Alarm</Elem>
+												<Elem>Tripped Medium Value</Elem>
+												<Elem>VI Tracing Flag</Elem>
+												<Elem>Watchdog Timer</Elem>
+												<Elem>WPL Error Code</Elem>
+												<Elem>WPL Error Count</Elem>
+												<Elem>WPL Overflow Count</Elem>
+												<Elem>WPL TCP Overflow Count</Elem>
 											</StringArray>
 										</Property>
 										<Property Name="user.CD.Log Channel  1">
 											<DependentNode Path="Targets/Controller/System Channels/System Time" />
+										</Property>
+										<Property Name="user.CD.Log Channel  2">
+											<DependentNode Path="Targets/Controller/System Channels/Absolute Time" />
+										</Property>
+										<Property Name="user.CD.Log Channel  3">
+											<DependentNode Path="Targets/Controller/System Channels/Actual Loop Rate" />
+										</Property>
+										<Property Name="user.CD.Log Channel  4">
+											<DependentNode Path="Targets/Controller/System Channels/Analysis State" />
+										</Property>
+										<Property Name="user.CD.Log Channel  5">
+											<DependentNode Path="Targets/Controller/System Channels/ASAM XIL EESPort Trigger" />
+										</Property>
+										<Property Name="user.CD.Log Channel  6">
+											<DependentNode Path="Targets/Controller/System Channels/ASAM XIL EESPort Trigger Count" />
+										</Property>
+										<Property Name="user.CD.Log Channel  7">
+											<DependentNode Path="Targets/Controller/System Channels/Command Index" />
+										</Property>
+										<Property Name="user.CD.Log Channel  8">
+											<DependentNode Path="Targets/Controller/System Channels/Command Rate" />
+										</Property>
+										<Property Name="user.CD.Log Channel  9">
+											<DependentNode Path="Targets/Controller/System Channels/DAQ Error" />
+										</Property>
+										<Property Name="user.CD.Log Channel  10">
+											<DependentNode Path="Targets/Controller/System Channels/Delta T" />
+										</Property>
+										<Property Name="user.CD.Log Channel  11">
+											<DependentNode Path="Targets/Controller/System Channels/Detailed Tracing Flag" />
+										</Property>
+										<Property Name="user.CD.Log Channel  12">
+											<DependentNode Path="Targets/Controller/System Channels/Failure Count" />
+										</Property>
+										<Property Name="user.CD.Log Channel  13">
+											<DependentNode Path="Targets/Controller/System Channels/Generator Engine State" />
+										</Property>
+										<Property Name="user.CD.Log Channel  14">
+											<DependentNode Path="Targets/Controller/System Channels/Host IP" />
+										</Property>
+										<Property Name="user.CD.Log Channel  15">
+											<DependentNode Path="Targets/Controller/System Channels/HP Count" />
+										</Property>
+										<Property Name="user.CD.Log Channel  16">
+											<DependentNode Path="Targets/Controller/System Channels/HP Loop Duration" />
+										</Property>
+										<Property Name="user.CD.Log Channel  17">
+											<DependentNode Path="Targets/Controller/System Channels/HP Loop Wakeup Status" />
+										</Property>
+										<Property Name="user.CD.Log Channel  18">
+											<DependentNode Path="Targets/Controller/System Channels/HP-LP Overwrite" />
+										</Property>
+										<Property Name="user.CD.Log Channel  19">
+											<DependentNode Path="Targets/Controller/System Channels/HS TCP Overflow Count" />
+										</Property>
+										<Property Name="user.CD.Log Channel  20">
+											<DependentNode Path="Targets/Controller/System Channels/Iteration" />
+										</Property>
+										<Property Name="user.CD.Log Channel  21">
+											<DependentNode Path="Targets/Controller/System Channels/Last Late Iteration" />
+										</Property>
+										<Property Name="user.CD.Log Channel  22">
+											<DependentNode Path="Targets/Controller/System Channels/Log Status" />
+										</Property>
+										<Property Name="user.CD.Log Channel  23">
+											<DependentNode Path="Targets/Controller/System Channels/LP Count" />
+										</Property>
+										<Property Name="user.CD.Log Channel  24">
+											<DependentNode Path="Targets/Controller/System Channels/LP Data Count" />
+										</Property>
+										<Property Name="user.CD.Log Channel  25">
+											<DependentNode Path="Targets/Controller/System Channels/LP Loop Duration" />
+										</Property>
+										<Property Name="user.CD.Log Channel  26">
+											<DependentNode Path="Targets/Controller/System Channels/Max Streamed Channels" />
+										</Property>
+										<Property Name="user.CD.Log Channel  27">
+											<DependentNode Path="Targets/Controller/System Channels/Maximum GENs" />
+										</Property>
+										<Property Name="user.CD.Log Channel  28">
+											<DependentNode Path="Targets/Controller/System Channels/Model Count" />
+										</Property>
+										<Property Name="user.CD.Log Channel  29">
+											<DependentNode Path="Targets/Controller/System Channels/Real-Time Sequence Command" />
+										</Property>
+										<Property Name="user.CD.Log Channel  30">
+											<DependentNode Path="Targets/Controller/System Channels/Real-Time Sequence Count" />
+										</Property>
+										<Property Name="user.CD.Log Channel  31">
+											<DependentNode Path="Targets/Controller/System Channels/RT Engine Build" />
+										</Property>
+										<Property Name="user.CD.Log Channel  32">
+											<DependentNode Path="Targets/Controller/System Channels/Stack Index 1" />
+										</Property>
+										<Property Name="user.CD.Log Channel  33">
+											<DependentNode Path="Targets/Controller/System Channels/Stack Index 2" />
+										</Property>
+										<Property Name="user.CD.Log Channel  34">
+											<DependentNode Path="Targets/Controller/System Channels/Stack Index 3" />
+										</Property>
+										<Property Name="user.CD.Log Channel  35">
+											<DependentNode Path="Targets/Controller/System Channels/Stack Index 4" />
+										</Property>
+										<Property Name="user.CD.Log Channel  36">
+											<DependentNode Path="Targets/Controller/System Channels/Stack Index 5" />
+										</Property>
+										<Property Name="user.CD.Log Channel  37">
+											<DependentNode Path="Targets/Controller/System Channels/Stack Index 6" />
+										</Property>
+										<Property Name="user.CD.Log Channel  38">
+											<DependentNode Path="Targets/Controller/System Channels/Streamed Channel Count" />
+										</Property>
+										<Property Name="user.CD.Log Channel  39">
+											<DependentNode Path="Targets/Controller/System Channels/Streamed Waveform Count" />
+										</Property>
+										<Property Name="user.CD.Log Channel  40">
+											<DependentNode Path="Targets/Controller/System Channels/System Command" />
+										</Property>
+										<Property Name="user.CD.Log Channel  41">
+											<DependentNode Path="Targets/Controller/System Channels/System Time - Microseconds" />
+										</Property>
+										<Property Name="user.CD.Log Channel  42">
+											<DependentNode Path="Targets/Controller/System Channels/TCP Data Packet Loss" />
+										</Property>
+										<Property Name="user.CD.Log Channel  43">
+											<DependentNode Path="Targets/Controller/System Channels/Thread Tracing Flag" />
+										</Property>
+										<Property Name="user.CD.Log Channel  44">
+											<DependentNode Path="Targets/Controller/System Channels/Trace Buffer Size" />
+										</Property>
+										<Property Name="user.CD.Log Channel  45">
+											<DependentNode Path="Targets/Controller/System Channels/Trace Enabled Flag" />
+										</Property>
+										<Property Name="user.CD.Log Channel  46">
+											<DependentNode Path="Targets/Controller/System Channels/Tripped High Alarm" />
+										</Property>
+										<Property Name="user.CD.Log Channel  47">
+											<DependentNode Path="Targets/Controller/System Channels/Tripped High Value" />
+										</Property>
+										<Property Name="user.CD.Log Channel  48">
+											<DependentNode Path="Targets/Controller/System Channels/Tripped Low Alarm" />
+										</Property>
+										<Property Name="user.CD.Log Channel  49">
+											<DependentNode Path="Targets/Controller/System Channels/Tripped Low Value" />
+										</Property>
+										<Property Name="user.CD.Log Channel  50">
+											<DependentNode Path="Targets/Controller/System Channels/Tripped Medium Alarm" />
+										</Property>
+										<Property Name="user.CD.Log Channel  51">
+											<DependentNode Path="Targets/Controller/System Channels/Tripped Medium Value" />
+										</Property>
+										<Property Name="user.CD.Log Channel  52">
+											<DependentNode Path="Targets/Controller/System Channels/VI Tracing Flag" />
+										</Property>
+										<Property Name="user.CD.Log Channel  53">
+											<DependentNode Path="Targets/Controller/System Channels/Watchdog Timer" />
+										</Property>
+										<Property Name="user.CD.Log Channel  54">
+											<DependentNode Path="Targets/Controller/System Channels/WPL Error Code" />
+										</Property>
+										<Property Name="user.CD.Log Channel  55">
+											<DependentNode Path="Targets/Controller/System Channels/WPL Error Count" />
+										</Property>
+										<Property Name="user.CD.Log Channel  56">
+											<DependentNode Path="Targets/Controller/System Channels/WPL Overflow Count" />
+										</Property>
+										<Property Name="user.CD.Log Channel  57">
+											<DependentNode Path="Targets/Controller/System Channels/WPL TCP Overflow Count" />
 										</Property>
 									</Properties>
 									<Errors />
