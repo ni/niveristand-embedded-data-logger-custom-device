@@ -10,7 +10,7 @@
 				<String>EDL</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.16</String>
+				<String>1.0.0.17</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -246,7 +246,8 @@
 									<StringArray>
 										<Elem>c</Elem>
 										<Elem>logs</Elem>
-										<Elem>EDL</Elem>
+										<Elem>edl_unit_tests</Elem>
+										<Elem>edl1</Elem>
 									</StringArray>
 								</Property>
 								<Property Name="user.CD.Timestamp">
@@ -260,6 +261,14 @@
 								</Property>
 								<Property Name="user.CD.Pretrigger">
 									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="user.CD.Log Archive Dir">
+									<StringArray>
+										<Elem>c</Elem>
+										<Elem>logs</Elem>
+										<Elem>edl_unit_tests</Elem>
+										<Elem>edl1-archive</Elem>
+									</StringArray>
 								</Property>
 							</Properties>
 							<Errors />
@@ -878,7 +887,8 @@ Values
 									<StringArray>
 										<Elem>c</Elem>
 										<Elem>logs</Elem>
-										<Elem>EDL2</Elem>
+										<Elem>edl_unit_tests</Elem>
+										<Elem>edl2</Elem>
 									</StringArray>
 								</Property>
 								<Property Name="user.CD.Timestamp">
@@ -897,7 +907,8 @@ Values
 									<StringArray>
 										<Elem>c</Elem>
 										<Elem>logs</Elem>
-										<Elem>EDL2-archive</Elem>
+										<Elem>edl_unit_tests</Elem>
+										<Elem>edl2-archive</Elem>
 									</StringArray>
 								</Property>
 								<Property Name="user.CD.Archive Files">
@@ -1036,9 +1047,10 @@ Values
 							<Properties>
 								<Property Name="user.CD.Log File Dir">
 									<StringArray>
-										<Elem>C</Elem>
+										<Elem>c</Elem>
 										<Elem>logs</Elem>
-										<Elem>EDL3</Elem>
+										<Elem>edl_unit_tests</Elem>
+										<Elem>edl3</Elem>
 									</StringArray>
 								</Property>
 								<Property Name="user.CD.Timestamp">
@@ -1055,9 +1067,10 @@ Values
 								</Property>
 								<Property Name="user.CD.Log Archive Dir">
 									<StringArray>
-										<Elem>C</Elem>
+										<Elem>c</Elem>
 										<Elem>logs</Elem>
-										<Elem>EDL3-archive</Elem>
+										<Elem>edl_unit_tests</Elem>
+										<Elem>edl3-archive</Elem>
 									</StringArray>
 								</Property>
 								<Property Name="user.CD.Archive Files">
@@ -1228,9 +1241,10 @@ Values
 							<Properties>
 								<Property Name="user.CD.Log File Dir">
 									<StringArray>
-										<Elem>C</Elem>
+										<Elem>c</Elem>
 										<Elem>logs</Elem>
-										<Elem>EDL4</Elem>
+										<Elem>edl_unit_tests</Elem>
+										<Elem>edl4</Elem>
 									</StringArray>
 								</Property>
 								<Property Name="user.CD.Timestamp">
@@ -1247,9 +1261,10 @@ Values
 								</Property>
 								<Property Name="user.CD.Log Archive Dir">
 									<StringArray>
-										<Elem>C</Elem>
+										<Elem>c</Elem>
 										<Elem>logs</Elem>
-										<Elem>EDL4-archive</Elem>
+										<Elem>edl_unit_tests</Elem>
+										<Elem>edl4-archive</Elem>
 									</StringArray>
 								</Property>
 								<Property Name="user.CD.Span by Size">
