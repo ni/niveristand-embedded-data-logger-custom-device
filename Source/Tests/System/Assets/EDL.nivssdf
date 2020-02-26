@@ -10,7 +10,7 @@
 				<String>EDL</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.7</String>
+				<String>1.0.0.17</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -246,7 +246,8 @@
 									<StringArray>
 										<Elem>c</Elem>
 										<Elem>logs</Elem>
-										<Elem>EDL</Elem>
+										<Elem>edl_unit_tests</Elem>
+										<Elem>edl1</Elem>
 									</StringArray>
 								</Property>
 								<Property Name="user.CD.Timestamp">
@@ -260,6 +261,14 @@
 								</Property>
 								<Property Name="user.CD.Pretrigger">
 									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="user.CD.Log Archive Dir">
+									<StringArray>
+										<Elem>c</Elem>
+										<Elem>logs</Elem>
+										<Elem>edl_unit_tests</Elem>
+										<Elem>edl1-archive</Elem>
+									</StringArray>
 								</Property>
 							</Properties>
 							<Errors />
@@ -878,7 +887,8 @@ Values
 									<StringArray>
 										<Elem>c</Elem>
 										<Elem>logs</Elem>
-										<Elem>EDL2</Elem>
+										<Elem>edl_unit_tests</Elem>
+										<Elem>edl2</Elem>
 									</StringArray>
 								</Property>
 								<Property Name="user.CD.Timestamp">
@@ -897,7 +907,8 @@ Values
 									<StringArray>
 										<Elem>c</Elem>
 										<Elem>logs</Elem>
-										<Elem>EDL2-archive</Elem>
+										<Elem>edl_unit_tests</Elem>
+										<Elem>edl2-archive</Elem>
 									</StringArray>
 								</Property>
 								<Property Name="user.CD.Archive Files">
@@ -1029,6 +1040,618 @@ Values
 									</Property>
 								</Properties>
 								<Errors />
+							</Section>
+						</Section>
+						<Section Name="EDL Log3" TypeGUID="29edb790-3e4e-4121-9b93-a3d0540ab92c">
+							<Description />
+							<Properties>
+								<Property Name="user.CD.Log File Dir">
+									<StringArray>
+										<Elem>c</Elem>
+										<Elem>logs</Elem>
+										<Elem>edl_unit_tests</Elem>
+										<Elem>edl3</Elem>
+									</StringArray>
+								</Property>
+								<Property Name="user.CD.Timestamp">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="user.CD.Auto Open">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="nivs.Log File Producer">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="user.CD.Pretrigger">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="user.CD.Log Archive Dir">
+									<StringArray>
+										<Elem>c</Elem>
+										<Elem>logs</Elem>
+										<Elem>edl_unit_tests</Elem>
+										<Elem>edl3-archive</Elem>
+									</StringArray>
+								</Property>
+								<Property Name="user.CD.Archive Files">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="user.CD.Span by Time">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="user.CD.Maximum Log Time">
+									<U32>20</U32>
+								</Property>
+								<Property Name="user.CD.Maximum File Size">
+									<U32>0</U32>
+								</Property>
+								<Property Name="user.CD.Segment Files">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="user.CD.Segment Size">
+									<U32>20</U32>
+								</Property>
+							</Properties>
+							<Errors />
+							<Section Name="Commands" TypeGUID="03D3BB89-1485-13A6-56005DE6430FF8B7">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Section Type">
+										<BinaryString>Q29tbWFuZA==</BinaryString>
+									</Property>
+								</Properties>
+								<Errors />
+								<Channel Name="Log Trigger" TypeGUID="19ab609c-2807-4208-9214-1b9da8fe089c" RowDim="1" ColDim="1" Units="" BitFields="3">
+									<Description>Controls whether to log data to file. A non-zero value specifies logging is active.</Description>
+									<Properties>
+										<Property Name="Value Table">
+											<Dictionary>
+												<Elem Key="Inactive">
+													<Double>0</Double>
+												</Elem>
+												<Elem Key="Active">
+													<Double>1</Double>
+												</Elem>
+											</Dictionary>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Log Command" TypeGUID="9b525fa0-4d4a-4ec1-902b-bfeef88ebbcc" RowDim="1" ColDim="1" Units="" BitFields="3">
+									<Description>Controls the data logging operation. Use this channel to specifically open or close data log files. This channel is reset to Idle after the command is processed.
+
+Values
+----------------
+0: Idle (no command)
+
+1: Open File. Closes the previous file reference if it was open and opens a new file reference.
+
+2: Close File. Closes the file reference without opening a new file reference.</Description>
+									<Properties>
+										<Property Name="Value Table">
+											<Dictionary>
+												<Elem Key="Idle">
+													<Double>0</Double>
+												</Elem>
+												<Elem Key="Open File">
+													<Double>1</Double>
+												</Elem>
+												<Elem Key="Close File">
+													<Double>2</Double>
+												</Elem>
+											</Dictionary>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+							</Section>
+							<Section Name="Status" TypeGUID="03D3BB89-1485-13A6-56005DE6430FF8B7">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Section Type">
+										<BinaryString>U3RhdHVz</BinaryString>
+									</Property>
+								</Properties>
+								<Errors />
+								<Channel Name="TDMS Error Code" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="Error Code" BitFields="1">
+									<Description>Indicates the error code value for the last reported TDMS file operation error.</Description>
+									<Properties>
+										<Property Name="user.CD.Channel Type">
+											<BinaryString>RXJyb3I=</BinaryString>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Missed Packets" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="" BitFields="1">
+									<Description>Indicates the total number of packets lost for the data log file. Each packet contains one time step of data for one channel group.</Description>
+									<Properties>
+										<Property Name="user.CD.Channel Type">
+											<BinaryString>RGF0YSBMb3Nz</BinaryString>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="File Status" TypeGUID="0565a14b-6056-4bf2-ab89-d54684e64d40" RowDim="1" ColDim="1" Units="" BitFields="1">
+									<Description>Indicates the status of the current log file.
+
+Values
+----------------
+0: Closed
+
+1: Open</Description>
+									<Properties>
+										<Property Name="Value Table">
+											<Dictionary>
+												<Elem Key="File Closed">
+													<Double>0</Double>
+												</Elem>
+												<Elem Key="File Open">
+													<Double>1</Double>
+												</Elem>
+											</Dictionary>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+							</Section>
+							<Section Name="Channel Groups" TypeGUID="708d9ba3-288f-456f-bd58-8911c913706f">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Section Type">
+										<BinaryString>R3JvdXBz</BinaryString>
+									</Property>
+								</Properties>
+								<Errors />
+								<Section Name="Channel Group" TypeGUID="6f0afb90-3eee-463c-9817-5273ea7ccf5e">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Decimation">
+											<I32>1</I32>
+										</Property>
+										<Property Name="user.CD.Log Channel  1">
+											<DependentNode Path="Targets/Controller/System Channels/System Time" />
+										</Property>
+										<Property Name="user.CD.Log Channel Names">
+											<StringArray>
+												<Elem>System Time</Elem>
+											</StringArray>
+										</Property>
+									</Properties>
+									<Errors />
+								</Section>
+							</Section>
+						</Section>
+						<Section Name="EDL Log4" TypeGUID="29edb790-3e4e-4121-9b93-a3d0540ab92c">
+							<Description />
+							<Properties>
+								<Property Name="user.CD.Log File Dir">
+									<StringArray>
+										<Elem>c</Elem>
+										<Elem>logs</Elem>
+										<Elem>edl_unit_tests</Elem>
+										<Elem>edl4</Elem>
+									</StringArray>
+								</Property>
+								<Property Name="user.CD.Timestamp">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="user.CD.Auto Open">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="nivs.Log File Producer">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="user.CD.Pretrigger">
+									<Boolean>false</Boolean>
+								</Property>
+								<Property Name="user.CD.Log Archive Dir">
+									<StringArray>
+										<Elem>c</Elem>
+										<Elem>logs</Elem>
+										<Elem>edl_unit_tests</Elem>
+										<Elem>edl4-archive</Elem>
+									</StringArray>
+								</Property>
+								<Property Name="user.CD.Span by Size">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="user.CD.Maximum Log Time">
+									<U32>0</U32>
+								</Property>
+								<Property Name="user.CD.Maximum File Size">
+									<U32>2000</U32>
+								</Property>
+								<Property Name="user.CD.Segment Files">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="user.CD.Segment Files By">
+									<U16>1</U16>
+								</Property>
+								<Property Name="user.CD.Segment Size">
+									<U32>1</U32>
+								</Property>
+							</Properties>
+							<Errors />
+							<Section Name="Commands" TypeGUID="03D3BB89-1485-13A6-56005DE6430FF8B7">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Section Type">
+										<BinaryString>Q29tbWFuZA==</BinaryString>
+									</Property>
+								</Properties>
+								<Errors />
+								<Channel Name="Log Trigger" TypeGUID="19ab609c-2807-4208-9214-1b9da8fe089c" RowDim="1" ColDim="1" Units="" BitFields="3">
+									<Description>Controls whether to log data to file. A non-zero value specifies logging is active.</Description>
+									<Properties>
+										<Property Name="Value Table">
+											<Dictionary>
+												<Elem Key="Inactive">
+													<Double>0</Double>
+												</Elem>
+												<Elem Key="Active">
+													<Double>1</Double>
+												</Elem>
+											</Dictionary>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Log Command" TypeGUID="9b525fa0-4d4a-4ec1-902b-bfeef88ebbcc" RowDim="1" ColDim="1" Units="" BitFields="3">
+									<Description>Controls the data logging operation. Use this channel to specifically open or close data log files. This channel is reset to Idle after the command is processed.
+
+Values
+----------------
+0: Idle (no command)
+
+1: Open File. Closes the previous file reference if it was open and opens a new file reference.
+
+2: Close File. Closes the file reference without opening a new file reference.</Description>
+									<Properties>
+										<Property Name="Value Table">
+											<Dictionary>
+												<Elem Key="Idle">
+													<Double>0</Double>
+												</Elem>
+												<Elem Key="Open File">
+													<Double>1</Double>
+												</Elem>
+												<Elem Key="Close File">
+													<Double>2</Double>
+												</Elem>
+											</Dictionary>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+							</Section>
+							<Section Name="Status" TypeGUID="03D3BB89-1485-13A6-56005DE6430FF8B7">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Section Type">
+										<BinaryString>U3RhdHVz</BinaryString>
+									</Property>
+								</Properties>
+								<Errors />
+								<Channel Name="TDMS Error Code" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="Error Code" BitFields="1">
+									<Description>Indicates the error code value for the last reported TDMS file operation error.</Description>
+									<Properties>
+										<Property Name="user.CD.Channel Type">
+											<BinaryString>RXJyb3I=</BinaryString>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Missed Packets" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="" BitFields="1">
+									<Description>Indicates the total number of packets lost for the data log file. Each packet contains one time step of data for one channel group.</Description>
+									<Properties>
+										<Property Name="user.CD.Channel Type">
+											<BinaryString>RGF0YSBMb3Nz</BinaryString>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="File Status" TypeGUID="0565a14b-6056-4bf2-ab89-d54684e64d40" RowDim="1" ColDim="1" Units="" BitFields="1">
+									<Description>Indicates the status of the current log file.
+
+Values
+----------------
+0: Closed
+
+1: Open</Description>
+									<Properties>
+										<Property Name="Value Table">
+											<Dictionary>
+												<Elem Key="File Closed">
+													<Double>0</Double>
+												</Elem>
+												<Elem Key="File Open">
+													<Double>1</Double>
+												</Elem>
+											</Dictionary>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+							</Section>
+							<Section Name="Channel Groups" TypeGUID="708d9ba3-288f-456f-bd58-8911c913706f">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Section Type">
+										<BinaryString>R3JvdXBz</BinaryString>
+									</Property>
+								</Properties>
+								<Errors />
+								<Section Name="Channel Group" TypeGUID="6f0afb90-3eee-463c-9817-5273ea7ccf5e">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Decimation">
+											<I32>1</I32>
+										</Property>
+										<Property Name="user.CD.Log Channel Names">
+											<StringArray>
+												<Elem>System Time</Elem>
+												<Elem>Absolute Time</Elem>
+												<Elem>Actual Loop Rate</Elem>
+												<Elem>Analysis State</Elem>
+												<Elem>ASAM XIL EESPort Trigger</Elem>
+												<Elem>ASAM XIL EESPort Trigger Count</Elem>
+												<Elem>Command Index</Elem>
+												<Elem>Command Rate</Elem>
+												<Elem>DAQ Error</Elem>
+												<Elem>Delta T</Elem>
+												<Elem>Detailed Tracing Flag</Elem>
+												<Elem>Failure Count</Elem>
+												<Elem>Generator Engine State</Elem>
+												<Elem>Host IP</Elem>
+												<Elem>HP Count</Elem>
+												<Elem>HP Loop Duration</Elem>
+												<Elem>HP Loop Wakeup Status</Elem>
+												<Elem>HP-LP Overwrite</Elem>
+												<Elem>HS TCP Overflow Count</Elem>
+												<Elem>Iteration</Elem>
+												<Elem>Last Late Iteration</Elem>
+												<Elem>Log Status</Elem>
+												<Elem>LP Count</Elem>
+												<Elem>LP Data Count</Elem>
+												<Elem>LP Loop Duration</Elem>
+												<Elem>Max Streamed Channels</Elem>
+												<Elem>Maximum GENs</Elem>
+												<Elem>Model Count</Elem>
+												<Elem>Real-Time Sequence Command</Elem>
+												<Elem>Real-Time Sequence Count</Elem>
+												<Elem>RT Engine Build</Elem>
+												<Elem>Stack Index 1</Elem>
+												<Elem>Stack Index 2</Elem>
+												<Elem>Stack Index 3</Elem>
+												<Elem>Stack Index 4</Elem>
+												<Elem>Stack Index 5</Elem>
+												<Elem>Stack Index 6</Elem>
+												<Elem>Streamed Channel Count</Elem>
+												<Elem>Streamed Waveform Count</Elem>
+												<Elem>System Command</Elem>
+												<Elem>System Time - Microseconds</Elem>
+												<Elem>TCP Data Packet Loss</Elem>
+												<Elem>Thread Tracing Flag</Elem>
+												<Elem>Trace Buffer Size</Elem>
+												<Elem>Trace Enabled Flag</Elem>
+												<Elem>Tripped High Alarm</Elem>
+												<Elem>Tripped High Value</Elem>
+												<Elem>Tripped Low Alarm</Elem>
+												<Elem>Tripped Low Value</Elem>
+												<Elem>Tripped Medium Alarm</Elem>
+												<Elem>Tripped Medium Value</Elem>
+												<Elem>VI Tracing Flag</Elem>
+												<Elem>Watchdog Timer</Elem>
+												<Elem>WPL Error Code</Elem>
+												<Elem>WPL Error Count</Elem>
+												<Elem>WPL Overflow Count</Elem>
+												<Elem>WPL TCP Overflow Count</Elem>
+											</StringArray>
+										</Property>
+										<Property Name="user.CD.Log Channel  1">
+											<DependentNode Path="Targets/Controller/System Channels/System Time" />
+										</Property>
+										<Property Name="user.CD.Log Channel  2">
+											<DependentNode Path="Targets/Controller/System Channels/Absolute Time" />
+										</Property>
+										<Property Name="user.CD.Log Channel  3">
+											<DependentNode Path="Targets/Controller/System Channels/Actual Loop Rate" />
+										</Property>
+										<Property Name="user.CD.Log Channel  4">
+											<DependentNode Path="Targets/Controller/System Channels/Analysis State" />
+										</Property>
+										<Property Name="user.CD.Log Channel  5">
+											<DependentNode Path="Targets/Controller/System Channels/ASAM XIL EESPort Trigger" />
+										</Property>
+										<Property Name="user.CD.Log Channel  6">
+											<DependentNode Path="Targets/Controller/System Channels/ASAM XIL EESPort Trigger Count" />
+										</Property>
+										<Property Name="user.CD.Log Channel  7">
+											<DependentNode Path="Targets/Controller/System Channels/Command Index" />
+										</Property>
+										<Property Name="user.CD.Log Channel  8">
+											<DependentNode Path="Targets/Controller/System Channels/Command Rate" />
+										</Property>
+										<Property Name="user.CD.Log Channel  9">
+											<DependentNode Path="Targets/Controller/System Channels/DAQ Error" />
+										</Property>
+										<Property Name="user.CD.Log Channel  10">
+											<DependentNode Path="Targets/Controller/System Channels/Delta T" />
+										</Property>
+										<Property Name="user.CD.Log Channel  11">
+											<DependentNode Path="Targets/Controller/System Channels/Detailed Tracing Flag" />
+										</Property>
+										<Property Name="user.CD.Log Channel  12">
+											<DependentNode Path="Targets/Controller/System Channels/Failure Count" />
+										</Property>
+										<Property Name="user.CD.Log Channel  13">
+											<DependentNode Path="Targets/Controller/System Channels/Generator Engine State" />
+										</Property>
+										<Property Name="user.CD.Log Channel  14">
+											<DependentNode Path="Targets/Controller/System Channels/Host IP" />
+										</Property>
+										<Property Name="user.CD.Log Channel  15">
+											<DependentNode Path="Targets/Controller/System Channels/HP Count" />
+										</Property>
+										<Property Name="user.CD.Log Channel  16">
+											<DependentNode Path="Targets/Controller/System Channels/HP Loop Duration" />
+										</Property>
+										<Property Name="user.CD.Log Channel  17">
+											<DependentNode Path="Targets/Controller/System Channels/HP Loop Wakeup Status" />
+										</Property>
+										<Property Name="user.CD.Log Channel  18">
+											<DependentNode Path="Targets/Controller/System Channels/HP-LP Overwrite" />
+										</Property>
+										<Property Name="user.CD.Log Channel  19">
+											<DependentNode Path="Targets/Controller/System Channels/HS TCP Overflow Count" />
+										</Property>
+										<Property Name="user.CD.Log Channel  20">
+											<DependentNode Path="Targets/Controller/System Channels/Iteration" />
+										</Property>
+										<Property Name="user.CD.Log Channel  21">
+											<DependentNode Path="Targets/Controller/System Channels/Last Late Iteration" />
+										</Property>
+										<Property Name="user.CD.Log Channel  22">
+											<DependentNode Path="Targets/Controller/System Channels/Log Status" />
+										</Property>
+										<Property Name="user.CD.Log Channel  23">
+											<DependentNode Path="Targets/Controller/System Channels/LP Count" />
+										</Property>
+										<Property Name="user.CD.Log Channel  24">
+											<DependentNode Path="Targets/Controller/System Channels/LP Data Count" />
+										</Property>
+										<Property Name="user.CD.Log Channel  25">
+											<DependentNode Path="Targets/Controller/System Channels/LP Loop Duration" />
+										</Property>
+										<Property Name="user.CD.Log Channel  26">
+											<DependentNode Path="Targets/Controller/System Channels/Max Streamed Channels" />
+										</Property>
+										<Property Name="user.CD.Log Channel  27">
+											<DependentNode Path="Targets/Controller/System Channels/Maximum GENs" />
+										</Property>
+										<Property Name="user.CD.Log Channel  28">
+											<DependentNode Path="Targets/Controller/System Channels/Model Count" />
+										</Property>
+										<Property Name="user.CD.Log Channel  29">
+											<DependentNode Path="Targets/Controller/System Channels/Real-Time Sequence Command" />
+										</Property>
+										<Property Name="user.CD.Log Channel  30">
+											<DependentNode Path="Targets/Controller/System Channels/Real-Time Sequence Count" />
+										</Property>
+										<Property Name="user.CD.Log Channel  31">
+											<DependentNode Path="Targets/Controller/System Channels/RT Engine Build" />
+										</Property>
+										<Property Name="user.CD.Log Channel  32">
+											<DependentNode Path="Targets/Controller/System Channels/Stack Index 1" />
+										</Property>
+										<Property Name="user.CD.Log Channel  33">
+											<DependentNode Path="Targets/Controller/System Channels/Stack Index 2" />
+										</Property>
+										<Property Name="user.CD.Log Channel  34">
+											<DependentNode Path="Targets/Controller/System Channels/Stack Index 3" />
+										</Property>
+										<Property Name="user.CD.Log Channel  35">
+											<DependentNode Path="Targets/Controller/System Channels/Stack Index 4" />
+										</Property>
+										<Property Name="user.CD.Log Channel  36">
+											<DependentNode Path="Targets/Controller/System Channels/Stack Index 5" />
+										</Property>
+										<Property Name="user.CD.Log Channel  37">
+											<DependentNode Path="Targets/Controller/System Channels/Stack Index 6" />
+										</Property>
+										<Property Name="user.CD.Log Channel  38">
+											<DependentNode Path="Targets/Controller/System Channels/Streamed Channel Count" />
+										</Property>
+										<Property Name="user.CD.Log Channel  39">
+											<DependentNode Path="Targets/Controller/System Channels/Streamed Waveform Count" />
+										</Property>
+										<Property Name="user.CD.Log Channel  40">
+											<DependentNode Path="Targets/Controller/System Channels/System Command" />
+										</Property>
+										<Property Name="user.CD.Log Channel  41">
+											<DependentNode Path="Targets/Controller/System Channels/System Time - Microseconds" />
+										</Property>
+										<Property Name="user.CD.Log Channel  42">
+											<DependentNode Path="Targets/Controller/System Channels/TCP Data Packet Loss" />
+										</Property>
+										<Property Name="user.CD.Log Channel  43">
+											<DependentNode Path="Targets/Controller/System Channels/Thread Tracing Flag" />
+										</Property>
+										<Property Name="user.CD.Log Channel  44">
+											<DependentNode Path="Targets/Controller/System Channels/Trace Buffer Size" />
+										</Property>
+										<Property Name="user.CD.Log Channel  45">
+											<DependentNode Path="Targets/Controller/System Channels/Trace Enabled Flag" />
+										</Property>
+										<Property Name="user.CD.Log Channel  46">
+											<DependentNode Path="Targets/Controller/System Channels/Tripped High Alarm" />
+										</Property>
+										<Property Name="user.CD.Log Channel  47">
+											<DependentNode Path="Targets/Controller/System Channels/Tripped High Value" />
+										</Property>
+										<Property Name="user.CD.Log Channel  48">
+											<DependentNode Path="Targets/Controller/System Channels/Tripped Low Alarm" />
+										</Property>
+										<Property Name="user.CD.Log Channel  49">
+											<DependentNode Path="Targets/Controller/System Channels/Tripped Low Value" />
+										</Property>
+										<Property Name="user.CD.Log Channel  50">
+											<DependentNode Path="Targets/Controller/System Channels/Tripped Medium Alarm" />
+										</Property>
+										<Property Name="user.CD.Log Channel  51">
+											<DependentNode Path="Targets/Controller/System Channels/Tripped Medium Value" />
+										</Property>
+										<Property Name="user.CD.Log Channel  52">
+											<DependentNode Path="Targets/Controller/System Channels/VI Tracing Flag" />
+										</Property>
+										<Property Name="user.CD.Log Channel  53">
+											<DependentNode Path="Targets/Controller/System Channels/Watchdog Timer" />
+										</Property>
+										<Property Name="user.CD.Log Channel  54">
+											<DependentNode Path="Targets/Controller/System Channels/WPL Error Code" />
+										</Property>
+										<Property Name="user.CD.Log Channel  55">
+											<DependentNode Path="Targets/Controller/System Channels/WPL Error Count" />
+										</Property>
+										<Property Name="user.CD.Log Channel  56">
+											<DependentNode Path="Targets/Controller/System Channels/WPL Overflow Count" />
+										</Property>
+										<Property Name="user.CD.Log Channel  57">
+											<DependentNode Path="Targets/Controller/System Channels/WPL TCP Overflow Count" />
+										</Property>
+									</Properties>
+									<Errors />
+								</Section>
 							</Section>
 						</Section>
 						<Channel Name="FIFO Utilization" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="%" BitFields="1">

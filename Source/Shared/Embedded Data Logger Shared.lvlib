@@ -5,7 +5,10 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Shared" Type="Folder">
-		<Item Name="Types" Type="Folder"/>
+		<Item Name="Types" Type="Folder">
+			<Item Name="Segment Files By.ctl" Type="VI" URL="../Segment Files By.ctl"/>
+		</Item>
 		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
+		<Item Name="Get Data Log File Span Settings.vi" Type="VI" URL="../Get Data Log File Span Settings.vi"/>
 	</Item>
 </Library>
