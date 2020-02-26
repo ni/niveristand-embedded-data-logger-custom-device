@@ -41,6 +41,7 @@
 			</Item>
 			<Item Name="System" Type="Folder">
 				<Item Name="Embedded Data Logger Windows System Tests.lvclass" Type="LVClass" URL="../Tests/System/Windows System Tests/Embedded Data Logger Windows System Tests.lvclass"/>
+				<Item Name="Embedded Data Logger Common System Tests.lvclass" Type="LVClass" URL="../Tests/System/Common System Tests/Embedded Data Logger Common System Tests.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="Custom Device Embedded Data Logger.xml" Type="Document" URL="../Custom Device Embedded Data Logger.xml"/>
