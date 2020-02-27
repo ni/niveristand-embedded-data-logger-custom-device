@@ -40,7 +40,7 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="Assets" Type="Folder">
-		<Item Name="EDL.nivssdf" Type="Document" URL="../Assets/EDL.nivssdf"/>
+		<Item Name="Default Configuration.nivssdf" Type="Document" URL="../Assets/Default Configuration.nivssdf"/>
 	</Item>
 	<Item Name="setUp.vi" Type="VI" URL="../setUp.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;5!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%J!=!!?!!!S-%6N9G6E:'6E)%2B&gt;'%A4'^H:W6S)%.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!!$8*F:G6S:7ZD:3"P&gt;81!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!%J!=!!?!!!S-%6N9G6E:'6E)%2B&gt;'%A4'^H:W6S)%.P&lt;7VP&lt;C"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!!$(*F:G6S:7ZD:3"J&lt;A!!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
