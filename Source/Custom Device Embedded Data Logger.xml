@@ -5,7 +5,7 @@
 		<eng>National Instruments::Embedded Data Logger</eng>
 		<loc>National Instruments::Embedded Data Logger</loc>
 	</AddMenu>
-	<Version>2020.0.0.0</Version>
+	<Version>2019.3.0.0</Version>
 	<Type>Inline HW Interface</Type>
 	<MaxOccurrence>2474</MaxOccurrence>
 	<MainPageGUID>382db339-b6fb-45a6-86c0-031bb1110bb1</MainPageGUID>
