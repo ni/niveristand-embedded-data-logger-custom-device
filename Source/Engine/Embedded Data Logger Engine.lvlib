@@ -14,7 +14,6 @@
 			<Item Name="Add to Flushed Data Size.vi" Type="VI" URL="../Add to Flushed Data Size.vi"/>
 			<Item Name="Build Data Log File Path.vi" Type="VI" URL="../Build Data Log File Path.vi"/>
 			<Item Name="Compute if Should Span.vi" Type="VI" URL="../Compute if Should Span.vi"/>
-			<Item Name="Convert Span Size to Time.vi" Type="VI" URL="../Convert Span Size to Time.vi"/>
 			<Item Name="Flush Close Archive File.vi" Type="VI" URL="../Flush Close Archive File.vi"/>
 			<Item Name="Flush File Data.vi" Type="VI" URL="../Flush File Data.vi"/>
 			<Item Name="Flush Group Buffer.vi" Type="VI" URL="../Flush Group Buffer.vi"/>
