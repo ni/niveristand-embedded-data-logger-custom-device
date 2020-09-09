@@ -89,6 +89,22 @@
 		</Page>
 		<Page>
 			<Name>
+				<eng>Commands Group Page</eng>
+				<loc>Commands Group Page</loc>
+			</Name>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>4f1afc32-5d3f-480b-ab1d-e879716c7d05</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\default fpga category.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\National Instruments\Embedded Data Logger\Windows\Embedded Data Logger Configuration.llb\Group Page.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
 				<eng>Trigger Page</eng>
 				<loc>Trigger Page</loc>
 			</Name>
@@ -121,14 +137,30 @@
 		</Page>
 		<Page>
 			<Name>
+				<eng>Status Group Page</eng>
+				<loc>Status Group Page</loc>
+			</Name>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>a53a1349-a480-4f9e-9001-22192f2aa75f</GUID>
+			<Glyph>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\National Instruments\Embedded Data Logger\Windows\Glyphs\status2.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\National Instruments\Embedded Data Logger\Windows\Embedded Data Logger Configuration.llb\Group Page.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
 				<eng>File Status Page</eng>
 				<loc>File Status Page</loc>
 			</Name>
 			<DeleteProtection>true</DeleteProtection>
 			<GUID>0565a14b-6056-4bf2-ab89-d54684e64d40</GUID>
 			<Glyph>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\National Instruments\Embedded Data Logger\Windows\Glyphs\status2.png</Path>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\default fpga channel.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
