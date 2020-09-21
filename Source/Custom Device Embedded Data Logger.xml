@@ -195,6 +195,10 @@
 					</Item2Launch>
 				</MenuItem>
 			</RunTimeMenu>
+			<ActionVIOnSave>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\National Instruments\Embedded Data Logger\Windows\Embedded Data Logger Configuration.llb\ActionVIOnSave (File).vi</Path>
+			</ActionVIOnSave>
 		</Page>
 		<Page>
 			<Name>
