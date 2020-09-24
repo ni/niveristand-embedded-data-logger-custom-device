@@ -70,6 +70,87 @@
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
+					<GUID>21e3246a-80bc-488b-a5a5-ba9a49af7f24</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Disable</eng>
+						<loc>Disable</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\National Instruments\Embedded Data Logger\Windows\Embedded Data Logger Configuration.llb\Enable Disable.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+					<Type>Separator</Type>
+					<Name>
+						<eng>.</eng>
+						<loc>.</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>.</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>b9203e22-4838-4b49-b35e-30db8f96b1a5</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Add Log File</eng>
+						<loc>Add Log File</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\National Instruments\Embedded Data Logger\Windows\Embedded Data Logger Configuration.llb\Add Log File RTM.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+			</RunTimeMenu>
+			<ActionVIOnLoad>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\National Instruments\Embedded Data Logger\Windows\Embedded Data Logger Configuration.llb\ActionVIOnLoad.vi</Path>
+			</ActionVIOnLoad>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Embedded Data Logger</eng>
+				<loc>Embedded Data Logger</loc>
+			</Name>
+			<GUID>d5523103-54a2-4b40-b917-a7ebcdb2735a</GUID>
+			<Glyph>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\National Instruments\Embedded Data Logger\Windows\Glyphs\LoggedData Disable.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\National Instruments\Embedded Data Logger\Windows\Embedded Data Logger Configuration.llb\Main Page.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>21e3246a-80bc-488b-a5a5-ba9a49af7f24</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Enable</eng>
+						<loc>Enable</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\National Instruments\Embedded Data Logger\Windows\Embedded Data Logger Configuration.llb\Enable Disable.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+					<Type>Separator</Type>
+					<Name>
+						<eng>.</eng>
+						<loc>.</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>.</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
 					<GUID>b9203e22-4838-4b49-b35e-30db8f96b1a5</GUID>
 					<Type>Action</Type>
 					<Name>
