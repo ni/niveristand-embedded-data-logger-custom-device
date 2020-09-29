@@ -12,6 +12,7 @@
 			<Item Name="Actions" Type="Folder">
 				<Item Name="ActionVIOnLoad.vi" Type="VI" URL="../ActionVIOnLoad.vi"/>
 				<Item Name="ActionVIOnSave (File).vi" Type="VI" URL="../ActionVIOnSave (File).vi"/>
+				<Item Name="Enable Disable.vi" Type="VI" URL="../Enable Disable.vi"/>
 			</Item>
 			<Item Name="Pages" Type="Folder">
 				<Item Name="Channel Group Page.vi" Type="VI" URL="../Channel Group Page.vi"/>
@@ -32,7 +33,7 @@
 				<Item Name="Build Data Log File Path.vi" Type="VI" URL="../Build Data Log File Path.vi"/>
 				<Item Name="Check and Toggle Error.vi" Type="VI" URL="../Check and Toggle Error.vi"/>
 				<Item Name="Create Unique Child Item Name.vi" Type="VI" URL="../Create Unique Child Item Name.vi"/>
-				<Item Name="Enable or Disable.vi" Type="VI" URL="../Enable or Disable.vi"/>
+				<Item Name="Get Control Condition State.vi" Type="VI" URL="../Get Control Condition State.vi"/>
 				<Item Name="Get Data Log File Settings.vi" Type="VI" URL="../Get Data Log File Settings.vi"/>
 				<Item Name="Get Default Log File Directory.vi" Type="VI" URL="../Get Default Log File Directory.vi"/>
 				<Item Name="Get Segment File Size Control Caption.vi" Type="VI" URL="../Get Segment File Size Control Caption.vi"/>
