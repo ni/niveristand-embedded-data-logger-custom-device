@@ -52,5 +52,5 @@ using the `RunVITester` operation provided by the [testing tools](https://github
 
 (taken from [developercertificate.org](https://developercertificate.org/))
 
-See [LICENSE](https://github.com/ni/niveristand-embedded-data-logger-custom-device/blob/master/LICENSE)
+See [LICENSE](https://github.com/ni/niveristand-embedded-data-logger-custom-device/blob/main/LICENSE)
 for details about how niveristand-embedded-data-logger-custom-device is licensed.
