@@ -24,6 +24,7 @@
 			<Item Name="Sample File Data.vi" Type="VI" URL="../Sample File Data.vi"/>
 			<Item Name="Sample Group Data.vi" Type="VI" URL="../Sample Group Data.vi"/>
 			<Item Name="Set Data in Group Buffer.vi" Type="VI" URL="../Set Data in Group Buffer.vi"/>
+			<Item Name="Set Default Channel Properties.vi" Type="VI" URL="../Set Default Channel Properties.vi"/>
 			<Item Name="Update Log Start Time if New Trigger.vi" Type="VI" URL="../Update Log Start Time if New Trigger.vi"/>
 			<Item Name="Zero Flushed Data Totals.vi" Type="VI" URL="../Zero Flushed Data Totals.vi"/>
 		</Item>
