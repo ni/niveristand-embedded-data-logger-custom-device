@@ -40,6 +40,7 @@
 		<Item Name="Group Buffer Data.ctl" Type="VI" URL="../Group Buffer Data.ctl"/>
 		<Item Name="Group Logging Specification.ctl" Type="VI" URL="../Group Logging Specification.ctl"/>
 		<Item Name="Group Sampling Specification.ctl" Type="VI" URL="../Group Sampling Specification.ctl"/>
+		<Item Name="Logging State.ctl" Type="VI" URL="../Logging State.ctl"/>
 		<Item Name="Property Specification.ctl" Type="VI" URL="../Property Specification.ctl"/>
 	</Item>
 </Library>
