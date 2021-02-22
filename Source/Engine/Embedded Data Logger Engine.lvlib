@@ -12,6 +12,7 @@
 		</Item>
 		<Item Name="Run" Type="Folder">
 			<Item Name="Add to Flushed Data Size.vi" Type="VI" URL="../Add to Flushed Data Size.vi"/>
+			<Item Name="Append Waveform Properties to TDMS Channels.vi" Type="VI" URL="../Append Waveform Properties to TDMS Channels.vi"/>
 			<Item Name="Build Data Log File Path.vi" Type="VI" URL="../Build Data Log File Path.vi"/>
 			<Item Name="Compute if Should Span.vi" Type="VI" URL="../Compute if Should Span.vi"/>
 			<Item Name="Flush Close Archive File.vi" Type="VI" URL="../Flush Close Archive File.vi"/>
@@ -21,10 +22,12 @@
 			<Item Name="Get Data Log File Settings.vi" Type="VI" URL="../Get Data Log File Settings.vi"/>
 			<Item Name="Get File Properties List.vi" Type="VI" URL="../Get File Properties List.vi"/>
 			<Item Name="Open Data Log File.vi" Type="VI" URL="../Open Data Log File.vi"/>
+			<Item Name="Process Falling Edge Trigger.vi" Type="VI" URL="../Process Falling Edge Trigger.vi"/>
 			<Item Name="Sample File Data.vi" Type="VI" URL="../Sample File Data.vi"/>
 			<Item Name="Sample Group Data.vi" Type="VI" URL="../Sample Group Data.vi"/>
 			<Item Name="Set Data in Group Buffer.vi" Type="VI" URL="../Set Data in Group Buffer.vi"/>
 			<Item Name="Update Log Start Time if New Trigger.vi" Type="VI" URL="../Update Log Start Time if New Trigger.vi"/>
+			<Item Name="Update Logging Status.vi" Type="VI" URL="../Update Logging Status.vi"/>
 			<Item Name="Zero Flushed Data Totals.vi" Type="VI" URL="../Zero Flushed Data Totals.vi"/>
 		</Item>
 		<Item Name="Shut Down" Type="Folder"/>
@@ -40,6 +43,7 @@
 		<Item Name="Group Buffer Data.ctl" Type="VI" URL="../Group Buffer Data.ctl"/>
 		<Item Name="Group Logging Specification.ctl" Type="VI" URL="../Group Logging Specification.ctl"/>
 		<Item Name="Group Sampling Specification.ctl" Type="VI" URL="../Group Sampling Specification.ctl"/>
+		<Item Name="Logging State.ctl" Type="VI" URL="../Logging State.ctl"/>
 		<Item Name="Property Specification.ctl" Type="VI" URL="../Property Specification.ctl"/>
 	</Item>
 </Library>
