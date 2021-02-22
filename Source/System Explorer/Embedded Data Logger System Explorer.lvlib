@@ -38,6 +38,7 @@
 				<Item Name="Get Default Log File Directory.vi" Type="VI" URL="../Get Default Log File Directory.vi"/>
 				<Item Name="Get Segment File Size Control Caption.vi" Type="VI" URL="../Get Segment File Size Control Caption.vi"/>
 				<Item Name="Get XML Custom Device Version.vi" Type="VI" URL="../Get XML Custom Device Version.vi"/>
+				<Item Name="Load Default Properties from Configuration File.vi" Type="VI" URL="../Load Default Properties from Configuration File.vi"/>
 				<Item Name="Mutate Device Driver Path.vi" Type="VI" URL="../Mutate Device Driver Path.vi"/>
 				<Item Name="Mutate Log File Directory.vi" Type="VI" URL="../Mutate Log File Directory.vi"/>
 				<Item Name="Mutate Status Glyph.vi" Type="VI" URL="../Mutate Status Glyph.vi"/>
