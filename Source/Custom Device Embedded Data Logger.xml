@@ -2,8 +2,8 @@
 <CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
 	<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
 	<AddMenu>
-		<eng>National Instruments::Embedded Data Logger</eng>
-		<loc>National Instruments::Embedded Data Logger</loc>
+		<eng>NI::Embedded Data Logger</eng>
+		<loc>NI::Embedded Data Logger</loc>
 	</AddMenu>
 	<Version>2020.0.1.0</Version>
 	<Type>Inline HW Interface</Type>
