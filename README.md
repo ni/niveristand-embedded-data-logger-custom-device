@@ -4,7 +4,7 @@ The **Embedded Data Logger Custom Device** allows users to log VeriStand channel
 
 ## LabVIEW Version
 
-LabVIEW 2018
+LabVIEW 2019
 
 ## Dependencies
 
