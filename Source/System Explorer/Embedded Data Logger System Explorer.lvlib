@@ -18,6 +18,7 @@
 				<Item Name="Channel Group Page.vi" Type="VI" URL="../Channel Group Page.vi"/>
 				<Item Name="Channel Groups Page.vi" Type="VI" URL="../Channel Groups Page.vi"/>
 				<Item Name="Command Page.vi" Type="VI" URL="../Command Page.vi"/>
+				<Item Name="Decimation Page.vi" Type="VI" URL="../Decimation Page.vi"/>
 				<Item Name="File Page.vi" Type="VI" URL="../File Page.vi"/>
 				<Item Name="File Status Page.vi" Type="VI" URL="../File Status Page.vi"/>
 				<Item Name="Group Page.vi" Type="VI" URL="../Group Page.vi"/>
@@ -40,6 +41,8 @@
 				<Item Name="Get Default Log File Directory.vi" Type="VI" URL="../Get Default Log File Directory.vi"/>
 				<Item Name="Get Segment File Size Control Caption.vi" Type="VI" URL="../Get Segment File Size Control Caption.vi"/>
 				<Item Name="Get XML Custom Device Version.vi" Type="VI" URL="../Get XML Custom Device Version.vi"/>
+				<Item Name="Initialize Channel Group Commands Page.vi" Type="VI" URL="../Initialize Channel Group Commands Page.vi"/>
+				<Item Name="Mutate Channel Group Commands.vi" Type="VI" URL="../Mutate Channel Group Commands.vi"/>
 				<Item Name="Mutate Device Driver Path.vi" Type="VI" URL="../Mutate Device Driver Path.vi"/>
 				<Item Name="Mutate Log File Directory.vi" Type="VI" URL="../Mutate Log File Directory.vi"/>
 				<Item Name="Mutate Status Glyph.vi" Type="VI" URL="../Mutate Status Glyph.vi"/>
