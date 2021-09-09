@@ -436,7 +436,7 @@ Values
 										</Properties>
 										<Errors />
 										<Channel Name="Decimation" TypeGUID="e3467543-06b1-40b2-b868-415e5fc97bc1" RowDim="1" ColDim="1" Units="" BitFields="3">
-											<Description>Sets the decimation value for the channel group. This value will be used the next time a log file is created for this channel group.</Description>
+											<Description>The decimation value for the channel group. This value will be used the next time a log file is opened for this channel group.</Description>
 											<Properties />
 											<Errors />
 											<DefaultValue>
