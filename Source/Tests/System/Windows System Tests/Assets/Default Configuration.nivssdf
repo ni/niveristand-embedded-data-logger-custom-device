@@ -10,7 +10,7 @@
 				<String>Default Configuration</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.19</String>
+				<String>1.0.0.20</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -232,7 +232,7 @@
 								</DependentFile>
 							</Property>
 							<Property Name="Version">
-								<String>2020.0.0.0</String>
+								<String>2021.0.1.0</String>
 							</Property>
 							<Property Name="user.CD.FIFO Depth">
 								<I32>100</I32>
@@ -272,7 +272,7 @@
 								</Property>
 							</Properties>
 							<Errors />
-							<Section Name="Commands" TypeGUID="03D3BB89-1485-13A6-56005DE6430FF8B7">
+							<Section Name="Commands" TypeGUID="4f1afc32-5d3f-480b-ab1d-e879716c7d05">
 								<Description />
 								<Properties>
 									<Property Name="user.CD.Section Type">
@@ -330,7 +330,7 @@ Values
 									</DefaultValue>
 								</Channel>
 							</Section>
-							<Section Name="Status" TypeGUID="03D3BB89-1485-13A6-56005DE6430FF8B7">
+							<Section Name="Status" TypeGUID="a53a1349-a480-4f9e-9001-22192f2aa75f">
 								<Description />
 								<Properties>
 									<Property Name="user.CD.Section Type">
@@ -399,9 +399,6 @@ Values
 								<Section Name="Data" TypeGUID="6f0afb90-3eee-463c-9817-5273ea7ccf5e">
 									<Description />
 									<Properties>
-										<Property Name="user.CD.Decimation">
-											<I32>1</I32>
-										</Property>
 										<Property Name="user.CD.Log Channel  1">
 											<DependentNode Path="Targets/Controller/System Channels/Actual Loop Rate" />
 										</Property>
@@ -636,13 +633,27 @@ Values
 										</Property>
 									</Properties>
 									<Errors />
+									<Section Name="Commands" TypeGUID="af877a87-7f69-4d75-91bc-7eef5469afda">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Section Type">
+												<BinaryString>Q29tbWFuZA==</BinaryString>
+											</Property>
+										</Properties>
+										<Errors />
+										<Channel Name="Decimation" TypeGUID="e3467543-06b1-40b2-b868-415e5fc97bc1" RowDim="1" ColDim="1" Units="" BitFields="3">
+											<Description>The decimation value for the channel group. This value will be used the next time a log file is opened for this channel group.</Description>
+											<Properties />
+											<Errors />
+											<DefaultValue>
+												<Elem>1</Elem>
+											</DefaultValue>
+										</Channel>
+									</Section>
 								</Section>
 								<Section Name="Decimated Data" TypeGUID="6f0afb90-3eee-463c-9817-5273ea7ccf5e">
 									<Description />
 									<Properties>
-										<Property Name="user.CD.Decimation">
-											<I32>10</I32>
-										</Property>
 										<Property Name="user.CD.Log Channel  1">
 											<DependentNode Path="Targets/Controller/System Channels/Actual Loop Rate" />
 										</Property>
@@ -877,6 +888,23 @@ Values
 										</Property>
 									</Properties>
 									<Errors />
+									<Section Name="Commands" TypeGUID="af877a87-7f69-4d75-91bc-7eef5469afda">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Section Type">
+												<BinaryString>Q29tbWFuZA==</BinaryString>
+											</Property>
+										</Properties>
+										<Errors />
+										<Channel Name="Decimation" TypeGUID="e3467543-06b1-40b2-b868-415e5fc97bc1" RowDim="1" ColDim="1" Units="" BitFields="3">
+											<Description>The decimation value for the channel group. This value will be used the next time a log file is opened for this channel group.</Description>
+											<Properties />
+											<Errors />
+											<DefaultValue>
+												<Elem>10</Elem>
+											</DefaultValue>
+										</Channel>
+									</Section>
 								</Section>
 							</Section>
 						</Section>
