@@ -196,7 +196,7 @@
 								<U32>1</U32>
 							</Property>
 							<Property Name="Driver VI Path_0">
-								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\National Instruments\Embedded Data Logger\Windows\Embedded Data Logger Engine Windows.llb\RT Driver VI.vi">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\National Instruments\Embedded Data Logger\Linux_x64\Embedded Data Logger Engine Linux64.llb\RT Driver VI.vi">
 									<Version>2020.0.0.0</Version>
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\National Instruments\Embedded Data Logger\Embedded Data Logger Engine Linux64.llb\RT Driver VI.vi</RTDestination>
@@ -205,7 +205,7 @@
 								</DependentFile>
 							</Property>
 							<Property Name="Driver VI Path_1">
-								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\National Instruments\Embedded Data Logger\Windows\Embedded Data Logger Engine Windows.llb\RT Driver VI.vi">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\National Instruments\Embedded Data Logger\Linux_32_ARM\Embedded Data Logger Engine LinuxARM.llb\RT Driver VI.vi">
 									<Version>2020.0.0.0</Version>
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\National Instruments\Embedded Data Logger\Embedded Data Logger Engine LinuxARM.llb\RT Driver VI.vi</RTDestination>
@@ -214,7 +214,7 @@
 								</DependentFile>
 							</Property>
 							<Property Name="Driver VI Path_2">
-								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\National Instruments\Embedded Data Logger\Windows\Embedded Data Logger Engine Windows.llb\RT Driver VI.vi">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\National Instruments\Embedded Data Logger\PharLap\Embedded Data Logger Engine Pharlap.llb\RT Driver VI.vi">
 									<Version>2020.0.0.0</Version>
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\National Instruments\Embedded Data Logger\Embedded Data Logger Engine Pharlap.llb\RT Driver VI.vi</RTDestination>
@@ -399,9 +399,6 @@ Values
 								<Section Name="Data" TypeGUID="6f0afb90-3eee-463c-9817-5273ea7ccf5e">
 									<Description />
 									<Properties>
-										<Property Name="user.CD.Decimation">
-											<I32>1</I32>
-										</Property>
 										<Property Name="user.CD.Log Channel  1">
 											<DependentNode Path="Targets/Controller/System Channels/Actual Loop Rate" />
 										</Property>
@@ -636,30 +633,18 @@ Values
 										</Property>
 									</Properties>
 									<Errors />
-									<Section Name="Commands" TypeGUID="af877a87-7f69-4d75-91bc-7eef5469afda">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.Section Type">
-												<BinaryString>Q29tbWFuZA==</BinaryString>
-											</Property>
-										</Properties>
+									<Channel Name="Decimation" TypeGUID="e3467543-06b1-40b2-b868-415e5fc97bc1" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Description>The decimation value for the channel group. This value will be used the next time a log file is opened for this channel group.</Description>
+										<Properties />
 										<Errors />
-										<Channel Name="Decimation" TypeGUID="e3467543-06b1-40b2-b868-415e5fc97bc1" RowDim="1" ColDim="1" Units="" BitFields="3">
-											<Description>The decimation value for the channel group. This value will be used the next time a log file is opened for this channel group.</Description>
-											<Properties />
-											<Errors />
-											<DefaultValue>
-												<Elem>1</Elem>
-											</DefaultValue>
-										</Channel>
-									</Section>
+										<DefaultValue>
+											<Elem>1</Elem>
+										</DefaultValue>
+									</Channel>
 								</Section>
 								<Section Name="Decimated Data" TypeGUID="6f0afb90-3eee-463c-9817-5273ea7ccf5e">
 									<Description />
 									<Properties>
-										<Property Name="user.CD.Decimation">
-											<I32>10</I32>
-										</Property>
 										<Property Name="user.CD.Log Channel  1">
 											<DependentNode Path="Targets/Controller/System Channels/Actual Loop Rate" />
 										</Property>
@@ -894,23 +879,14 @@ Values
 										</Property>
 									</Properties>
 									<Errors />
-									<Section Name="Commands" TypeGUID="af877a87-7f69-4d75-91bc-7eef5469afda">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.Section Type">
-												<BinaryString>Q29tbWFuZA==</BinaryString>
-											</Property>
-										</Properties>
+									<Channel Name="Decimation" TypeGUID="e3467543-06b1-40b2-b868-415e5fc97bc1" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Description>The decimation value for the channel group. This value will be used the next time a log file is opened for this channel group.</Description>
+										<Properties />
 										<Errors />
-										<Channel Name="Decimation" TypeGUID="e3467543-06b1-40b2-b868-415e5fc97bc1" RowDim="1" ColDim="1" Units="" BitFields="3">
-											<Description>Sets the decimation value for the channel group. This value will be used the next time a log file is created for this channel group.</Description>
-											<Properties />
-											<Errors />
-											<DefaultValue>
-												<Elem>10</Elem>
-											</DefaultValue>
-										</Channel>
-									</Section>
+										<DefaultValue>
+											<Elem>10</Elem>
+										</DefaultValue>
+									</Channel>
 								</Section>
 							</Section>
 						</Section>

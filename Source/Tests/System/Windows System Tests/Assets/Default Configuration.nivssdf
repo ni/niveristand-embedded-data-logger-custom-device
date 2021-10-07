@@ -633,23 +633,14 @@ Values
 										</Property>
 									</Properties>
 									<Errors />
-									<Section Name="Commands" TypeGUID="af877a87-7f69-4d75-91bc-7eef5469afda">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.Section Type">
-												<BinaryString>Q29tbWFuZA==</BinaryString>
-											</Property>
-										</Properties>
+									<Channel Name="Decimation" TypeGUID="e3467543-06b1-40b2-b868-415e5fc97bc1" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Description>The decimation value for the channel group. This value will be used the next time a log file is opened for this channel group.</Description>
+										<Properties />
 										<Errors />
-										<Channel Name="Decimation" TypeGUID="e3467543-06b1-40b2-b868-415e5fc97bc1" RowDim="1" ColDim="1" Units="" BitFields="3">
-											<Description>The decimation value for the channel group. This value will be used the next time a log file is opened for this channel group.</Description>
-											<Properties />
-											<Errors />
-											<DefaultValue>
-												<Elem>1</Elem>
-											</DefaultValue>
-										</Channel>
-									</Section>
+										<DefaultValue>
+											<Elem>1</Elem>
+										</DefaultValue>
+									</Channel>
 								</Section>
 								<Section Name="Decimated Data" TypeGUID="6f0afb90-3eee-463c-9817-5273ea7ccf5e">
 									<Description />
@@ -888,23 +879,14 @@ Values
 										</Property>
 									</Properties>
 									<Errors />
-									<Section Name="Commands" TypeGUID="af877a87-7f69-4d75-91bc-7eef5469afda">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.Section Type">
-												<BinaryString>Q29tbWFuZA==</BinaryString>
-											</Property>
-										</Properties>
+									<Channel Name="Decimation" TypeGUID="e3467543-06b1-40b2-b868-415e5fc97bc1" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Description>The decimation value for the channel group. This value will be used the next time a log file is opened for this channel group.</Description>
+										<Properties />
 										<Errors />
-										<Channel Name="Decimation" TypeGUID="e3467543-06b1-40b2-b868-415e5fc97bc1" RowDim="1" ColDim="1" Units="" BitFields="3">
-											<Description>The decimation value for the channel group. This value will be used the next time a log file is opened for this channel group.</Description>
-											<Properties />
-											<Errors />
-											<DefaultValue>
-												<Elem>10</Elem>
-											</DefaultValue>
-										</Channel>
-									</Section>
+										<DefaultValue>
+											<Elem>10</Elem>
+										</DefaultValue>
+									</Channel>
 								</Section>
 							</Section>
 						</Section>

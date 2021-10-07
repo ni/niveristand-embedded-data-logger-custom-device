@@ -312,30 +312,14 @@
 		</Page>
 		<Page>
 			<Name>
-				<eng>Commands Channel Group Page</eng>
-				<loc>Commands Channel Group Page</loc>
-			</Name>
-			<DeleteProtection>true</DeleteProtection>
-			<GUID>af877a87-7f69-4d75-91bc-7eef5469afda</GUID>
-			<Glyph>
-				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\default fpga category.png</Path>
-			</Glyph>
-			<Item2Launch>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\National Instruments\Embedded Data Logger\Windows\Embedded Data Logger Configuration.llb\Group Page.vi</Path>
-			</Item2Launch>
-		</Page>
-		<Page>
-			<Name>
 				<eng>Decimation Page</eng>
 				<loc>Decimation Page</loc>
 			</Name>
 			<DeleteProtection>true</DeleteProtection>
 			<GUID>e3467543-06b1-40b2-b868-415e5fc97bc1</GUID>
 			<Glyph>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\National Instruments\Embedded Data Logger\Windows\Glyphs\channel.png</Path>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\default fpga channel.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
