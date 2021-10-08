@@ -10,7 +10,7 @@
 				<String>Default Configuration</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.20</String>
+				<String>1.0.0.21</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -254,7 +254,7 @@
 									<Boolean>false</Boolean>
 								</Property>
 								<Property Name="user.CD.Auto Open">
-									<Boolean>true</Boolean>
+									<Boolean>false</Boolean>
 								</Property>
 								<Property Name="nivs.Log File Producer">
 									<Boolean>true</Boolean>
