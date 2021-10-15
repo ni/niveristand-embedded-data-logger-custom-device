@@ -315,6 +315,7 @@
 				<eng>Decimation Page</eng>
 				<loc>Decimation Page</loc>
 			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
 			<DeleteProtection>true</DeleteProtection>
 			<GUID>e3467543-06b1-40b2-b868-415e5fc97bc1</GUID>
 			<Glyph>
