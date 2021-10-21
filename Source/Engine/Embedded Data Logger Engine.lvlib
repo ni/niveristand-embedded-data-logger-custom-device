@@ -23,8 +23,8 @@
 			<Item Name="Get File Properties List.vi" Type="VI" URL="../Get File Properties List.vi"/>
 			<Item Name="Open Data Log File.vi" Type="VI" URL="../Open Data Log File.vi"/>
 			<Item Name="Process Falling Edge Trigger.vi" Type="VI" URL="../Process Falling Edge Trigger.vi"/>
-			<Item Name="Read Channel Groups Decimation Values.vi" Type="VI" URL="../../System Explorer/Read Channel Groups Decimation Values.vi"/>
-			<Item Name="Read Decimation Channel.vi" Type="VI" URL="../../System Explorer/Read Decimation Channel.vi"/>
+			<Item Name="Read Channel Groups Decimation Values.vi" Type="VI" URL="../Read Channel Groups Decimation Values.vi"/>
+			<Item Name="Read Decimation Channel.vi" Type="VI" URL="../Read Decimation Channel.vi"/>
 			<Item Name="Sample File Data.vi" Type="VI" URL="../Sample File Data.vi"/>
 			<Item Name="Sample Group Data.vi" Type="VI" URL="../Sample Group Data.vi"/>
 			<Item Name="Set Data in Group Buffer.vi" Type="VI" URL="../Set Data in Group Buffer.vi"/>
