@@ -7,4 +7,7 @@
 	<Item Name="Custom Device" Type="Folder">
 		<Item Name="Initialize Embedded Data Logger Custom Device.vi" Type="VI" URL="../Custom Device/Initialize Embedded Data Logger Custom Device.vi"/>
 	</Item>
+	<Item Name="Log File" Type="Folder">
+		<Item Name="Add Log File.vi" Type="VI" URL="../Log File/Add Log File.vi"/>
+	</Item>
 </Library>

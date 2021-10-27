@@ -46,7 +46,6 @@
 				<Item Name="Mutate Device Driver Path.vi" Type="VI" URL="../Mutate Device Driver Path.vi"/>
 				<Item Name="Mutate Log File Directory.vi" Type="VI" URL="../Mutate Log File Directory.vi"/>
 				<Item Name="Mutate Status Glyph.vi" Type="VI" URL="../Mutate Status Glyph.vi"/>
-				<Item Name="New Log File Configuration.vi" Type="VI" URL="../New Log File Configuration.vi"/>
 				<Item Name="Refresh Files Table.vi" Type="VI" URL="../Refresh Files Table.vi"/>
 				<Item Name="Refresh Groups Table.vi" Type="VI" URL="../Refresh Groups Table.vi"/>
 				<Item Name="Select Channels Dialog.vi" Type="VI" URL="../Select Channels Dialog.vi"/>
