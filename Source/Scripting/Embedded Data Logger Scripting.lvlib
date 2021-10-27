@@ -9,5 +9,7 @@
 	</Item>
 	<Item Name="Log File" Type="Folder">
 		<Item Name="Add Log File.vi" Type="VI" URL="../Log File/Add Log File.vi"/>
+		<Item Name="Get Auto Open.vi" Type="VI" URL="../Log File/Get Auto Open.vi"/>
+		<Item Name="Set Auto Open.vi" Type="VI" URL="../Log File/Set Auto Open.vi"/>
 	</Item>
 </Library>
