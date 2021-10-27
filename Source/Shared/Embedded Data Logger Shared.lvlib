@@ -9,6 +9,5 @@
 			<Item Name="Segment Files By.ctl" Type="VI" URL="../Segment Files By.ctl"/>
 		</Item>
 		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
-		<Item Name="Get Data Log File Span Settings.vi" Type="VI" URL="../Get Data Log File Span Settings.vi"/>
 	</Item>
 </Library>
