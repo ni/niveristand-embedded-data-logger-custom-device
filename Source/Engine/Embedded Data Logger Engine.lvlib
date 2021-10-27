@@ -23,9 +23,12 @@
 			<Item Name="Get File Properties List.vi" Type="VI" URL="../Get File Properties List.vi"/>
 			<Item Name="Open Data Log File.vi" Type="VI" URL="../Open Data Log File.vi"/>
 			<Item Name="Process Falling Edge Trigger.vi" Type="VI" URL="../Process Falling Edge Trigger.vi"/>
+			<Item Name="Read Channel Groups Decimation Values.vi" Type="VI" URL="../Read Channel Groups Decimation Values.vi"/>
+			<Item Name="Read Decimation Channel.vi" Type="VI" URL="../Read Decimation Channel.vi"/>
 			<Item Name="Sample File Data.vi" Type="VI" URL="../Sample File Data.vi"/>
 			<Item Name="Sample Group Data.vi" Type="VI" URL="../Sample Group Data.vi"/>
 			<Item Name="Set Data in Group Buffer.vi" Type="VI" URL="../Set Data in Group Buffer.vi"/>
+			<Item Name="Set dts in Channel Groups.vi" Type="VI" URL="../../System Explorer/Set dts in Channel Groups.vi"/>
 			<Item Name="Update Log Start Time if New Trigger.vi" Type="VI" URL="../Update Log Start Time if New Trigger.vi"/>
 			<Item Name="Update Logging Status.vi" Type="VI" URL="../Update Logging Status.vi"/>
 			<Item Name="Zero Flushed Data Totals.vi" Type="VI" URL="../Zero Flushed Data Totals.vi"/>

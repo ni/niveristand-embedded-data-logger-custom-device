@@ -5,7 +5,7 @@
 		<eng>NI::Embedded Data Logger</eng>
 		<loc>NI::Embedded Data Logger</loc>
 	</AddMenu>
-	<Version>2020.0.1.0</Version>
+	<Version>2021.0.1.0</Version>
 	<Type>Inline HW Interface</Type>
 	<MaxOccurrence>2474</MaxOccurrence>
 	<MainPageGUID>382db339-b6fb-45a6-86c0-031bb1110bb1</MainPageGUID>
@@ -310,7 +310,24 @@
 				</MenuItem>
 			</RunTimeMenu>
 		</Page>
-	</Pages>
+		<Page>
+			<Name>
+				<eng>Decimation Page</eng>
+				<loc>Decimation Page</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>e3467543-06b1-40b2-b868-415e5fc97bc1</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\default fpga channel.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\National Instruments\Embedded Data Logger\Windows\Embedded Data Logger Configuration.llb\Decimation Page.vi</Path>
+			</Item2Launch>
+		</Page>
+   </Pages>
 	<CustomXML>
 		<Dummy />
 	</CustomXML>
