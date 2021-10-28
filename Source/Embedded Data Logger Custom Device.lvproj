@@ -50,6 +50,7 @@
 		<Item Name="Embedded Data Logger Engine.lvlib" Type="Library" URL="../Engine/Embedded Data Logger Engine.lvlib"/>
 		<Item Name="Embedded Data Logger Shared.lvlib" Type="Library" URL="../Shared/Embedded Data Logger Shared.lvlib"/>
 		<Item Name="Embedded Data Logger System Explorer.lvlib" Type="Library" URL="../System Explorer/Embedded Data Logger System Explorer.lvlib"/>
+		<Item Name="Embedded Data Logger Scripting.lvlib" Type="Library" URL="../Scripting/Embedded Data Logger Scripting.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>

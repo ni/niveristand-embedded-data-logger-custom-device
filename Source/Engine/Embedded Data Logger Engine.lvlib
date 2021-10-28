@@ -13,12 +13,10 @@
 		<Item Name="Run" Type="Folder">
 			<Item Name="Add to Flushed Data Size.vi" Type="VI" URL="../Add to Flushed Data Size.vi"/>
 			<Item Name="Append Waveform Properties to TDMS Channels.vi" Type="VI" URL="../Append Waveform Properties to TDMS Channels.vi"/>
-			<Item Name="Build Data Log File Path.vi" Type="VI" URL="../Build Data Log File Path.vi"/>
 			<Item Name="Compute if Should Span.vi" Type="VI" URL="../Compute if Should Span.vi"/>
 			<Item Name="Flush Close Archive File.vi" Type="VI" URL="../Flush Close Archive File.vi"/>
 			<Item Name="Flush File Data.vi" Type="VI" URL="../Flush File Data.vi"/>
 			<Item Name="Flush Group Buffer.vi" Type="VI" URL="../Flush Group Buffer.vi"/>
-			<Item Name="Get Data Log Directory Settings.vi" Type="VI" URL="../Get Data Log Directory Settings.vi"/>
 			<Item Name="Get Data Log File Settings.vi" Type="VI" URL="../Get Data Log File Settings.vi"/>
 			<Item Name="Get File Properties List.vi" Type="VI" URL="../Get File Properties List.vi"/>
 			<Item Name="Open Data Log File.vi" Type="VI" URL="../Open Data Log File.vi"/>
