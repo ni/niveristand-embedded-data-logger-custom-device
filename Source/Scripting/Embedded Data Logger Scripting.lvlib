@@ -35,6 +35,13 @@
 		<Item Name="Set Log File Use Time for X-Axis for Continuous Acquisitions.vi" Type="VI" URL="../Log File/Set Log File Use Time for X-Axis for Continuous Acquisitions.vi"/>
 	</Item>
 	<Item Name="Channel Groups" Type="Folder">
+		<Item Name="Not On Palette" Type="Folder">
+			<Item Name="Set Channel Group Channel Names.vi" Type="VI" URL="../Channel Groups/Set Channel Group Channel Names.vi"/>
+		</Item>
 		<Item Name="Add Channel Group.vi" Type="VI" URL="../Channel Groups/Add Channel Group.vi"/>
+		<Item Name="Get Channel Group Channels.vi" Type="VI" URL="../Channel Groups/Get Channel Group Channels.vi"/>
+		<Item Name="Set Channel Group Channels.vi" Type="VI" URL="../Channel Groups/Set Channel Group Channels.vi"/>
+		<Item Name="Set Channel Group Decimation.vi" Type="VI" URL="../Channel Groups/Set Channel Group Decimation.vi"/>
+		<Item Name="Get Channel Group Decimation.vi" Type="VI" URL="../Channel Groups/Get Channel Group Decimation.vi"/>
 	</Item>
 </Library>
