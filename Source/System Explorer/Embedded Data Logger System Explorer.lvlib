@@ -30,6 +30,7 @@
 				<Item Name="Add Log File RTM.vi" Type="VI" URL="../Add Log File RTM.vi"/>
 			</Item>
 			<Item Name="SubVIs" Type="Folder">
+				<Item Name="Add Log File with INI Defaults.vi" Type="VI" URL="../Add Log File with INI Defaults.vi"/>
 				<Item Name="Apply Properties from Configuration File.vi" Type="VI" URL="../Apply Properties from Configuration File.vi"/>
 				<Item Name="Check and Toggle Error.vi" Type="VI" URL="../Check and Toggle Error.vi"/>
 				<Item Name="Create Unique Child Item Name.vi" Type="VI" URL="../Create Unique Child Item Name.vi"/>
