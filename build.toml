@@ -23,7 +23,7 @@ type = 'nipkg'
 payload_dir = 'Built'
 
 [package.payload_map]
-'Built' = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices\National Instruments'
+'Built\\Embedded Data Logger' = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices\National Instruments\Embedded Data Logger'
 'Built\\Errors' = 'ni-paths-NISHAREDDIR{nipaths_64_bitness_suffix}\LabVIEW Run-Time\{veristand_version}\errors\English'
 
 [notification]
