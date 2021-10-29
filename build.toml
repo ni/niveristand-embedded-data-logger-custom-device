@@ -21,7 +21,10 @@ build_spec = 'Engine Release'
 [package]
 type = 'nipkg'
 payload_dir = 'Built'
-install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices\National Instruments'
+
+[package.payload_map]
+'Built\\Embedded Data Logger' = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices\National Instruments\Embedded Data Logger'
+'Built\\Errors' = 'ni-paths-NISHAREDDIR{nipaths_64_bitness_suffix}\LabVIEW Run-Time\{veristand_version}\errors\English'
 
 [notification]
 type = 'teams'
