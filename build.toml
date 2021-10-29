@@ -21,10 +21,9 @@ build_spec = 'Engine Release'
 [package]
 type = 'nipkg'
 payload_dir = 'Built'
-install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices\National Instruments'
 
 [package.payload_map]
-'Built' = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices\Ballard'
+'Built' = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices\National Instruments'
 'Built\\Errors' = 'ni-paths-NISHAREDDIR{nipaths_64_bitness_suffix}\LabVIEW Run-Time\{veristand_version}\errors\English'
 
 [notification]
