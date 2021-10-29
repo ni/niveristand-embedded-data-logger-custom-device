@@ -18,6 +18,9 @@
 		<Item Name="Remove Embedded Data Logger Custom Device.vi" Type="VI" URL="../Custom Device/Remove Embedded Data Logger Custom Device.vi"/>
 		<Item Name="Set Embedded Data Logger FIFO Depth.vi" Type="VI" URL="../Custom Device/Set Embedded Data Logger FIFO Depth.vi"/>
 		<Item Name="Get Embedded Data Logger FIFO Depth.vi" Type="VI" URL="../Custom Device/Get Embedded Data Logger FIFO Depth.vi"/>
+		<Item Name="Disable Embedded Data Logger Custom Device.vi" Type="VI" URL="../Custom Device/Disable Embedded Data Logger Custom Device.vi"/>
+		<Item Name="Enable Embedded Data Logger Custom Device.vi" Type="VI" URL="../Custom Device/Enable Embedded Data Logger Custom Device.vi"/>
+		<Item Name="Is Embedded Data Logger Custom Device Enabled.vi" Type="VI" URL="../Custom Device/Is Embedded Data Logger Custom Device Enabled.vi"/>
 	</Item>
 	<Item Name="Log File" Type="Folder">
 		<Item Name="Not On Palette" Type="Folder">
