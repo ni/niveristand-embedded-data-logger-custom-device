@@ -46,11 +46,22 @@
 				<Item Name="Embedded Data Logger Common System Tests.lvclass" Type="LVClass" URL="../Tests/System/Common System Tests/Embedded Data Logger Common System Tests.lvclass"/>
 			</Item>
 		</Item>
+		<Item Name="Scripting" Type="Folder">
+			<Item Name="Tests" Type="Folder">
+				<Item Name="System" Type="Folder"/>
+				<Item Name="Unit" Type="Folder">
+					<Item Name="Embedded Data Logger Scripting Unit Tests.lvclass" Type="LVClass" URL="../Scripting/Tests/Unit/Embedded Data Logger Scripting Unit Tests.lvclass"/>
+				</Item>
+			</Item>
+			<Item Name="Embedded Data Logger Scripting.lvlib" Type="Library" URL="../Scripting/Embedded Data Logger Scripting.lvlib"/>
+		</Item>
+		<Item Name="Support Files" Type="Folder">
+			<Item Name="EmbeddedDataLogger-errors.txt" Type="Document" URL="../Docs/EmbeddedDataLogger-errors.txt"/>
+		</Item>
 		<Item Name="Custom Device Embedded Data Logger.xml" Type="Document" URL="../Custom Device Embedded Data Logger.xml"/>
 		<Item Name="Embedded Data Logger Engine.lvlib" Type="Library" URL="../Engine/Embedded Data Logger Engine.lvlib"/>
 		<Item Name="Embedded Data Logger Shared.lvlib" Type="Library" URL="../Shared/Embedded Data Logger Shared.lvlib"/>
 		<Item Name="Embedded Data Logger System Explorer.lvlib" Type="Library" URL="../System Explorer/Embedded Data Logger System Explorer.lvlib"/>
-		<Item Name="Embedded Data Logger Scripting.lvlib" Type="Library" URL="../Scripting/Embedded Data Logger Scripting.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -543,8 +554,10 @@
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="Destination[3].destName" Type="Str">Glyphs</Property>
 				<Property Name="Destination[3].path" Type="Path">../Built/Embedded Data Logger/Windows/Glyphs</Property>
-				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A5630DD5-068A-4178-B616-3A191D45AC30}</Property>
+				<Property Name="Destination[4].destName" Type="Str">Errors</Property>
+				<Property Name="Destination[4].path" Type="Path">../Built/Errors</Property>
+				<Property Name="DestinationCount" Type="Int">5</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2FF8CD68-01E5-4EE3-A1CE-F50416FFB393}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Custom Device Embedded Data Logger.xml</Property>
@@ -605,7 +618,10 @@
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Glyphs</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">6</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Support Files/EmbeddedDataLogger-errors.txt</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">7</Property>
 			</Item>
 			<Item Name="Engine Debug" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{C67C1B30-A649-4BB4-8780-C96741B30EB4}</Property>

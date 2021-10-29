@@ -12,6 +12,10 @@
 		<Item Name="Not On Palette" Type="Folder">
 			<Item Name="Initialize Embedded Data Logger Custom Device.vi" Type="VI" URL="../Custom Device/Initialize Embedded Data Logger Custom Device.vi"/>
 		</Item>
+		<Item Name="Add Embedded Data Logger Custom Device.vi" Type="VI" URL="../Custom Device/Add Embedded Data Logger Custom Device.vi"/>
+		<Item Name="Find All Embedded Data Logger Custom Devices.vi" Type="VI" URL="../Custom Device/Find All Embedded Data Logger Custom Devices.vi"/>
+		<Item Name="Find Embedded Data Logger Custom Device by Name.vi" Type="VI" URL="../Custom Device/Find Embedded Data Logger Custom Device by Name.vi"/>
+		<Item Name="Remove Embedded Data Logger Custom Device.vi" Type="VI" URL="../Custom Device/Remove Embedded Data Logger Custom Device.vi"/>
 	</Item>
 	<Item Name="Log File" Type="Folder">
 		<Item Name="Not On Palette" Type="Folder">
@@ -43,5 +47,8 @@
 		<Item Name="Set Channel Group Channels.vi" Type="VI" URL="../Channel Groups/Set Channel Group Channels.vi"/>
 		<Item Name="Set Channel Group Decimation.vi" Type="VI" URL="../Channel Groups/Set Channel Group Decimation.vi"/>
 		<Item Name="Get Channel Group Decimation.vi" Type="VI" URL="../Channel Groups/Get Channel Group Decimation.vi"/>
+	</Item>
+	<Item Name="Utility" Type="Folder">
+		<Item Name="Merge VeriStand .NET Error.vi" Type="VI" URL="../Utility/Merge VeriStand .NET Error.vi"/>
 	</Item>
 </Library>
