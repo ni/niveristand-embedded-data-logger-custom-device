@@ -33,13 +33,10 @@
 				<Item Name="Add Log File with INI Defaults.vi" Type="VI" URL="../Add Log File with INI Defaults.vi"/>
 				<Item Name="Apply Properties from Configuration File.vi" Type="VI" URL="../Apply Properties from Configuration File.vi"/>
 				<Item Name="Check and Toggle Error.vi" Type="VI" URL="../Check and Toggle Error.vi"/>
-				<Item Name="Create Unique Child Item Name.vi" Type="VI" URL="../Create Unique Child Item Name.vi"/>
 				<Item Name="Get Configuration File Path.vi" Type="VI" URL="../Get Configuration File Path.vi"/>
 				<Item Name="Get Control Condition State.vi" Type="VI" URL="../Get Control Condition State.vi"/>
-				<Item Name="Get Default Log File Directory.vi" Type="VI" URL="../Get Default Log File Directory.vi"/>
 				<Item Name="Get Segment File Size Control Caption.vi" Type="VI" URL="../Get Segment File Size Control Caption.vi"/>
 				<Item Name="Get XML Custom Device Version.vi" Type="VI" URL="../Get XML Custom Device Version.vi"/>
-				<Item Name="Initialize Channel Group Channels.vi" Type="VI" URL="../Initialize Channel Group Channels.vi"/>
 				<Item Name="Mutate Channel Group Commands.vi" Type="VI" URL="../Mutate Channel Group Commands.vi"/>
 				<Item Name="Mutate Device Driver Path.vi" Type="VI" URL="../Mutate Device Driver Path.vi"/>
 				<Item Name="Mutate Log File Directory.vi" Type="VI" URL="../Mutate Log File Directory.vi"/>

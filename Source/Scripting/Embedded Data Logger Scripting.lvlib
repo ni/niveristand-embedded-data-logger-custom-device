@@ -26,6 +26,9 @@
 		<Item Name="Not On Palette" Type="Folder">
 			<Item Name="Build Data Log Archive Path.vi" Type="VI" URL="../Log File/Build Data Log Archive Path.vi"/>
 			<Item Name="Build Data Log File Path.vi" Type="VI" URL="../Log File/Build Data Log File Path.vi"/>
+			<Item Name="Get Default Log File Directory.vi" Type="VI" URL="../Log File/Get Default Log File Directory.vi">
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			</Item>
 		</Item>
 		<Item Name="Add Log File.vi" Type="VI" URL="../Log File/Add Log File.vi"/>
 		<Item Name="Get Log File Archive Location.vi" Type="VI" URL="../Log File/Get Log File Archive Location.vi"/>
@@ -46,6 +49,7 @@
 	<Item Name="Channel Groups" Type="Folder">
 		<Item Name="Not On Palette" Type="Folder">
 			<Item Name="Set Channel Group Channel Names.vi" Type="VI" URL="../Channel Groups/Set Channel Group Channel Names.vi"/>
+			<Item Name="Initialize Channel Group Channels.vi" Type="VI" URL="../Channel Groups/Initialize Channel Group Channels.vi"/>
 		</Item>
 		<Item Name="Add Channel Group.vi" Type="VI" URL="../Channel Groups/Add Channel Group.vi"/>
 		<Item Name="Get Channel Group Channels.vi" Type="VI" URL="../Channel Groups/Get Channel Group Channels.vi"/>
@@ -59,5 +63,6 @@
 		<Item Name="Get Target Type.vi" Type="VI" URL="../Utility/Get Target Type.vi"/>
 		<Item Name="Set Channel Value Table.vi" Type="VI" URL="../Utility/Set Channel Value Table.vi"/>
 		<Item Name="Set Log File Producer Flag.vi" Type="VI" URL="../Utility/Set Log File Producer Flag.vi"/>
+		<Item Name="Create Unique Child Item Name.vi" Type="VI" URL="../Utility/Create Unique Child Item Name.vi"/>
 	</Item>
 </Library>
