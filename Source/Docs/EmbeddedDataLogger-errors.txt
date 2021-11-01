@@ -6,4 +6,7 @@ https://github.com/ni/niveristand-embedded-data-logger-custom-device/
 <nierror code="-732400">
 An instance of the Embedded Data Logger with the specified name could not be found.
 </nierror>
+<nierror code="-732401">
+An log file with the specified name could not be found.
+</nierror>
 </nidocument>

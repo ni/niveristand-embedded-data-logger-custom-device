@@ -23,17 +23,22 @@
 		<Item Name="Is Embedded Data Logger Custom Device Enabled.vi" Type="VI" URL="../Custom Device/Is Embedded Data Logger Custom Device Enabled.vi"/>
 	</Item>
 	<Item Name="Log File" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="Not On Palette" Type="Folder">
 			<Item Name="Build Data Log Archive Path.vi" Type="VI" URL="../Log File/Build Data Log Archive Path.vi"/>
 			<Item Name="Build Data Log File Path.vi" Type="VI" URL="../Log File/Build Data Log File Path.vi"/>
 		</Item>
 		<Item Name="Add Log File.vi" Type="VI" URL="../Log File/Add Log File.vi"/>
+		<Item Name="Find All Log Files.vi" Type="VI" URL="../Log File/Find All Log Files.vi"/>
+		<Item Name="Find Log File by Name.vi" Type="VI" URL="../Log File/Find Log File by Name.vi"/>
 		<Item Name="Get Log File Archive Location.vi" Type="VI" URL="../Log File/Get Log File Archive Location.vi"/>
 		<Item Name="Get Log File Auto Open.vi" Type="VI" URL="../Log File/Get Log File Auto Open.vi"/>
 		<Item Name="Get Log File Location.vi" Type="VI" URL="../Log File/Get Log File Location.vi"/>
 		<Item Name="Get Log File Pretrigger Logging.vi" Type="VI" URL="../Log File/Get Log File Pretrigger Logging.vi"/>
 		<Item Name="Get Log File Segmenting.vi" Type="VI" URL="../Log File/Get Log File Segmenting.vi"/>
 		<Item Name="Get Log File Use Time for X-Axis for Continuous Acquisitions.vi" Type="VI" URL="../Log File/Get Log File Use Time for X-Axis for Continuous Acquisitions.vi"/>
+		<Item Name="Get Log Trigger Default Value.vi" Type="VI" URL="../Log File/Get Log Trigger Default Value.vi"/>
+		<Item Name="Remove Log File.vi" Type="VI" URL="../Log File/Remove Log File.vi"/>
 		<Item Name="Rename Log File.vi" Type="VI" URL="../Log File/Rename Log File.vi"/>
 		<Item Name="Set Log File Archive Location.vi" Type="VI" URL="../Log File/Set Log File Archive Location.vi"/>
 		<Item Name="Set Log File Auto Open.vi" Type="VI" URL="../Log File/Set Log File Auto Open.vi"/>
@@ -42,6 +47,7 @@
 		<Item Name="Set Log File Segmenting by Size.vi" Type="VI" URL="../Log File/Set Log File Segmenting by Size.vi"/>
 		<Item Name="Set Log File Segmenting by Time.vi" Type="VI" URL="../Log File/Set Log File Segmenting by Time.vi"/>
 		<Item Name="Set Log File Use Time for X-Axis for Continuous Acquisitions.vi" Type="VI" URL="../Log File/Set Log File Use Time for X-Axis for Continuous Acquisitions.vi"/>
+		<Item Name="Set Log Trigger Default Value.vi" Type="VI" URL="../Log File/Set Log Trigger Default Value.vi"/>
 	</Item>
 	<Item Name="Channel Groups" Type="Folder">
 		<Item Name="Not On Palette" Type="Folder">
