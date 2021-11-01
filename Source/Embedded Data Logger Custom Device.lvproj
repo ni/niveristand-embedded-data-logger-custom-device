@@ -48,7 +48,9 @@
 		</Item>
 		<Item Name="Scripting" Type="Folder">
 			<Item Name="Tests" Type="Folder">
-				<Item Name="System" Type="Folder"/>
+				<Item Name="System" Type="Folder">
+					<Item Name="Embedded Data Logger Scripting System Tests.lvclass" Type="LVClass" URL="../Scripting/Tests/System/Embedded Data Logger Scripting System Tests.lvclass"/>
+				</Item>
 				<Item Name="Unit" Type="Folder">
 					<Item Name="Embedded Data Logger Scripting Unit Tests.lvclass" Type="LVClass" URL="../Scripting/Tests/Unit/Embedded Data Logger Scripting Unit Tests.lvclass"/>
 				</Item>
