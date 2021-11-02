@@ -27,7 +27,7 @@ build_spec = 'Scripting API'
 
 [package]
 type = 'nipkg'
-payload_dir = 'Built'
+package_output_dir = 'Built'
 
 [package.payload_map]
 'Built\\Embedded Data Logger' = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices\National Instruments\Embedded Data Logger'
