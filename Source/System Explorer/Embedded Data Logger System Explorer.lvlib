@@ -37,6 +37,7 @@
 				<Item Name="Get Control Condition State.vi" Type="VI" URL="../Get Control Condition State.vi"/>
 				<Item Name="Get Segment File Size Control Caption.vi" Type="VI" URL="../Get Segment File Size Control Caption.vi"/>
 				<Item Name="Get XML Custom Device Version.vi" Type="VI" URL="../Get XML Custom Device Version.vi"/>
+				<Item Name="Mark Item as New.vi" Type="VI" URL="../Mark Item as New.vi"/>
 				<Item Name="Mutate Channel Group Commands.vi" Type="VI" URL="../Mutate Channel Group Commands.vi"/>
 				<Item Name="Mutate Device Driver Path.vi" Type="VI" URL="../Mutate Device Driver Path.vi"/>
 				<Item Name="Mutate Log File Directory.vi" Type="VI" URL="../Mutate Log File Directory.vi"/>
