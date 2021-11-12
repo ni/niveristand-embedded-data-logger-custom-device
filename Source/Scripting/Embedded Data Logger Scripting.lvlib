@@ -56,13 +56,13 @@
 		<Item Name="Not On Palette" Type="Folder">
 			<Item Name="Set Channel Group Channel Names.vi" Type="VI" URL="../Channel Groups/Set Channel Group Channel Names.vi"/>
 			<Item Name="Initialize Channel Group Channels.vi" Type="VI" URL="../Channel Groups/Initialize Channel Group Channels.vi"/>
+			<Item Name="Find Channel Groups.vi" Type="VI" URL="../Channel Groups/Find Channel Groups.vi"/>
 		</Item>
 		<Item Name="Add Channel Group.vi" Type="VI" URL="../Channel Groups/Add Channel Group.vi"/>
 		<Item Name="Get Channel Group Channels.vi" Type="VI" URL="../Channel Groups/Get Channel Group Channels.vi"/>
 		<Item Name="Set Channel Group Channels.vi" Type="VI" URL="../Channel Groups/Set Channel Group Channels.vi"/>
 		<Item Name="Set Channel Group Decimation.vi" Type="VI" URL="../Channel Groups/Set Channel Group Decimation.vi"/>
 		<Item Name="Get Channel Group Decimation.vi" Type="VI" URL="../Channel Groups/Get Channel Group Decimation.vi"/>
-		<Item Name="Find Channel Groups.vi" Type="VI" URL="../Channel Groups/Find Channel Groups.vi"/>
 	</Item>
 	<Item Name="Utility" Type="Folder">
 		<Item Name="Merge VeriStand .NET Error.vi" Type="VI" URL="../Utility/Merge VeriStand .NET Error.vi"/>
