@@ -237,6 +237,7 @@
 				<eng>File Page</eng>
 				<loc>File Page</loc>
 			</Name>
+			<Copy>Copy</Copy>
 			<GUID>29edb790-3e4e-4121-9b93-a3d0540ab92c</GUID>
 			<Glyph>
 				<Type>To Common Doc Dir</Type>
@@ -270,6 +271,7 @@
 				<eng>Channel Group Page</eng>
 				<loc>Channel Group Page</loc>
 			</Name>
+			<Copy>Copy</Copy>
 			<GUID>6f0afb90-3eee-463c-9817-5273ea7ccf5e</GUID>
 			<Glyph>
 				<Type>To Common Doc Dir</Type>
