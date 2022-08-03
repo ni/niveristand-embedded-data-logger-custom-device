@@ -34,6 +34,7 @@
 		<Item Name="Add Log File.vi" Type="VI" URL="../Log File/Add Log File.vi"/>
 		<Item Name="Find All Log Files.vi" Type="VI" URL="../Log File/Find All Log Files.vi"/>
 		<Item Name="Find Log File by Name.vi" Type="VI" URL="../Log File/Find Log File by Name.vi"/>
+		<Item Name="Get Log File Additional Properties.vi" Type="VI" URL="../Log File/Get Log File Additional Properties.vi"/>
 		<Item Name="Get Log File Archive Location.vi" Type="VI" URL="../Log File/Get Log File Archive Location.vi"/>
 		<Item Name="Get Log File Auto Open.vi" Type="VI" URL="../Log File/Get Log File Auto Open.vi"/>
 		<Item Name="Get Log File Location.vi" Type="VI" URL="../Log File/Get Log File Location.vi"/>
@@ -43,6 +44,7 @@
 		<Item Name="Get Log Trigger Default Value.vi" Type="VI" URL="../Log File/Get Log Trigger Default Value.vi"/>
 		<Item Name="Remove Log File.vi" Type="VI" URL="../Log File/Remove Log File.vi"/>
 		<Item Name="Rename Log File.vi" Type="VI" URL="../Log File/Rename Log File.vi"/>
+		<Item Name="Set Log File Additional Properties.vi" Type="VI" URL="../Log File/Set Log File Additional Properties.vi"/>
 		<Item Name="Set Log File Archive Location.vi" Type="VI" URL="../Log File/Set Log File Archive Location.vi"/>
 		<Item Name="Set Log File Auto Open.vi" Type="VI" URL="../Log File/Set Log File Auto Open.vi"/>
 		<Item Name="Set Log File Location.vi" Type="VI" URL="../Log File/Set Log File Location.vi"/>
