@@ -2,13 +2,28 @@
 
 The **Embedded Data Logger Custom Device** allows users to log VeriStand channels to file.
 
-## LabVIEW Version
+## Using the Custom Device
+
+- Download the latest release package from the [Releases page](https://github.com/ni/niveristand-embedded-data-logger-custom-device/releases).
+
+## LabVIEW Source Code Version
 
 LabVIEW 2019
 
 ## Dependencies
 
-- [NI VeriStand Custom Device Testing Tools](https://github.com/ni/niveristand-custom-device-testing-tools)
+### Running the custom device
+
+- [VeriStand 2019 or later](https://www.ni.com/en-us/support/downloads/software-products/download.veristand.html)
+
+### Developing or building from source
+
+- [LabVIEW 2019 or later](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html)
+- [LabVIEW Real-Time Module](https://www.ni.com/en-us/support/downloads/software-products/download.labview-real-time-module.html)
+- [VeriStand Custom Device Development Tools](https://github.com/ni/niveristand-custom-device-development-tools)
+  - Install the latest package from the [release page](https://github.com/ni/niveristand-custom-device-development-tools/releases)
+- [VeriStand Custom Device Testing Tools](https://github.com/ni/niveristand-custom-device-testing-tools)
+  - Install the latest package from the [release page](https://github.com/ni/niveristand-custom-device-testing-tools/releases)
 
 ## Git History & Rebasing Policy
 
