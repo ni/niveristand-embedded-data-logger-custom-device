@@ -34,7 +34,7 @@
 </Property>
 	<Property Name="NI.LVClass.IsTransferClass" Type="Bool">false</Property>
 	<Property Name="NI.LVClass.LowestCompatibleVersion" Type="Str">1.0.0.0</Property>
-	<Property Name="NI.LVClass.ParentClassLinkInfo" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#%!!!!!2F7:8*J5X2B&lt;G25:8.U1W&amp;T:3ZM&gt;G.M98.T5&amp;2)-!!!!&amp;Y!!1!*!!!!!!!!*WZJ&gt;G6S;8.U97ZE,7.V=X2P&lt;3VE:8:J9W5N&gt;'6T&gt;'FO:SVU&lt;W^M=R&amp;7:8*J5X2B&lt;G25:8.U1W&amp;T:2F7:8*J5X2B&lt;G25:8.U1W&amp;T:3ZM&gt;G.M98.T!!!!!!</Property>
+	<Property Name="NI.LVClass.ParentClassLinkInfo" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#(!!!!!2F7:8*J5X2B&lt;G25:8.U1W&amp;T:3ZM&gt;G.M98.T5&amp;2)-!!!!'%!!!!&amp;"TRW;7RJ9DY#4EEF6G6S;6.U97ZE)%.V=X2P&lt;3"%:8:J9W5A6'6T&gt;'FO:S"5&lt;W^M=R&amp;7:8*J5X2B&lt;G25:8.U1W&amp;T:2F7:8*J5X2B&lt;G25:8.U1W&amp;T:3ZM&gt;G.M98.T!!!!!!</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Embedded Data Logger Windows System Tests.ctl" Type="Class Private Data" URL="Embedded Data Logger Windows System Tests.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
