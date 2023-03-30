@@ -40,7 +40,7 @@ stages:
           target: 'My Computer'
           buildSpec: 'Scripting API'
 
-      releaseVersion: '23.3.0'
+      releaseVersion: '23.5.0'
       buildOutputLocation: 'Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\embedded_data_logger_custom_device'
 
