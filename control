@@ -13,3 +13,13 @@ Section: Add-Ons
 XB-DisplayVersion: {quarterly_display_version}
 XB-DisplayName: NI Embedded Data Logger for VeriStand {veristand_version}
 Depends: ni-veristand-{labview_version} (>= {labview_short_version}.0.0)
+Description-zh-CN:为NI VeriStand {veristand_version}的嵌入式数据Logger自定义设备提供支持
+XB-DisplayName-zh-CN: ni-embedded-data-logger-veristand-{veristand_version}-support.
+Description-de: Stellt Unterstützung für benutzerdefinierte Geräte für Embedded Data Logger in NI VeriStand {veristand_version} bereit.
+XB-DisplayName-de: ni-embedded-data-logger-veristand-{veristand_version}-support.
+Description-fr: Fournit le support pour le périphérique personnalisé Embedded Data Logger pour NI VeriStand {veristand_version}.
+XB-DisplayName-fr: ni-embedded-data-logger-veristand-{veristand_version}-support.
+Description-ja: NI VeriStand {veristand_version}用の組込データロガーカスタムデバイスサポートを提供します.
+XB-DisplayName-ja: ni-embedded-data-logger-veristand-{veristand_version}-support.
+Description-ko: NI VeriStand {veristand_version}을(를) 위한 Embedded Data Logger Custom Device의 지원을 제공합니다.
+XB-DisplayName-ko: ni-embedded-data-logger-veristand-{veristand_version}-support.
