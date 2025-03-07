@@ -16,7 +16,7 @@
             <Type>To Common Doc Dir</Type>
             <Path>Custom Devices\National Instruments\Embedded Data Logger\Linux_x64\Embedded Data Logger Engine Linux64.llb\Timing Source.vi</Path>
          </Source>
-         <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\National Instruments\Embedded Data Logger\Embedded Data Logger Engine Linux64.llb\Timing Source.vi</RealTimeSystemDestination>
+         <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\National Instruments\Embedded Data Logger\Timing Source.vi</RealTimeSystemDestination>
       </Paths>
       <SourceDistribution>
          <Source>
@@ -25,7 +25,7 @@
                <Type>To Common Doc Dir</Type>
                <Path>Custom Devices\National Instruments\Embedded Data Logger\Linux_x64\Embedded Data Logger Engine Linux64.llb\Timing Source.vi</Path>
             </Location>
-            <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\National Instruments\Embedded Data Logger\Embedded Data Logger Engine Linux64.llb\Timing Source.vi</RealTimeSystemDestination>
+            <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\National Instruments\Embedded Data Logger\Timing Source.vi</RealTimeSystemDestination>
          </Source>
       </SourceDistribution>
    </TimingSource>
