@@ -43,6 +43,9 @@ stages:
       releaseVersion: '26.5.0'
       buildOutputLocation: 'Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\embedded_data_logger_custom_device'
+      repoName: 'niveristand-embedded-data-logger-custom-device'
+      createNetCoreRepo: true
+
 
       packages:
         - controlFileName: 'control'
