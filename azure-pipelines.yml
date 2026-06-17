@@ -63,19 +63,19 @@ stages:
 
       buildSteps:
         - id: 'embedded_data_logger_custom_device_configuration'
-          projectLocation: 'Source\Embedded Data Logger Custom Device.lvproj'
+          projectLocation: 'Source/Embedded Data Logger Custom Device.lvproj'
           buildOperation: 'ExecuteBuildSpec'
           target: 'My Computer'
           buildSpec: 'Configuration Release'
 
         - id: 'embedded_data_logger_custom_device_engine'
-          projectLocation: 'Source\Embedded Data Logger Custom Device.lvproj'
+          projectLocation: 'Source/Embedded Data Logger Custom Device.lvproj'
           buildOperation: 'ExecuteBuildSpec'
           target: 'My Computer'
           buildSpec: 'Engine Release'
 
         - id: 'embedded_data_logger_custom_device_scripting_api'
-          projectLocation: 'Source\Embedded Data Logger Custom Device.lvproj'
+          projectLocation: 'Source/Embedded Data Logger Custom Device.lvproj'
           buildOperation: 'ExecuteBuildSpec'
           target: 'My Computer'
           buildSpec: 'Scripting API'
