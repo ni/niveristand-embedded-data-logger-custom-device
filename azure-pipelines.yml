@@ -23,6 +23,8 @@ stages:
           bitness: '64bit'
         - version: '2026'
           bitness: '64bit'
+        - version: '2027'
+          bitness: '64bit'
 
       buildSteps:
         - projectLocation: 'Source\Embedded Data Logger Custom Device.lvproj'
@@ -40,7 +42,7 @@ stages:
           target: 'My Computer'
           buildSpec: 'Scripting API'
 
-      releaseVersion: '26.5.0'
+      releaseVersion: '26.8.0'
       buildOutputLocation: 'Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\embedded_data_logger_custom_device'
       repoName: 'niveristand-embedded-data-logger-custom-device'
