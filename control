@@ -12,7 +12,6 @@ XB-UserVisible: yes
 Section: Add-Ons
 XB-DisplayVersion: {quarterly_display_version}
 XB-DisplayName: NI Embedded Data Logger for VeriStand {veristand_version}
-Depends: ni-veristand-{labview_version} (>= {labview_short_version}.0.0)
 Description-zh-CN:为NI VeriStand {veristand_version}的嵌入式数据Logger自定义设备提供支持
 XB-DisplayName-zh-CN: ni-embedded-data-logger-veristand-{veristand_version}-support.
 Description-de: Stellt Unterstützung für benutzerdefinierte Geräte für Embedded Data Logger in NI VeriStand {veristand_version} bereit.
