@@ -52,7 +52,7 @@ stages:
       packages:
         - controlFileName: 'control'
           payloadMaps:
-            - installLocation: 'documents\National Instruments\NI VeriStand $(lvVersion)\Custom Devices\National Instruments\Embedded Data Logger'
+            - installLocation: 'programdata\National Instruments\NI VeriStand $(lvVersion)\Plugins\Custom Devices\National Instruments\Embedded Data Logger'
               payloadLocation: 'Embedded Data Logger'
             - installLocation: 'ni-paths-NISHAREDDIR$(nipkgx64suffix)\LabVIEW Run-Time\$(lvVersion)\errors\English'
               payloadLocation: 'Errors'
